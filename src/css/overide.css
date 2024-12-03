@@ -1,0 +1,531 @@
+
+.main-pad{
+    padding-bottom: 50px;
+    width: 100%;
+}
+.showPass{
+    position: absolute;
+    right:20px;
+    cursor: pointer;
+    top:5px
+}
+.showPassRTL{
+    position: absolute;
+    left:20px;
+    cursor: pointer;
+    top:5px
+}
+
+.input-group div{
+    width: 100%;
+}
+.MuiInputBase-root{
+    padding: 0 !important;
+    min-height: 40px;
+}
+.MuiInputBase-root input{
+    padding:8px 14px !important;
+    font-family: vazir !important;
+}
+.MuiAutocomplete-popper div{
+  font-family: vazir !important;
+
+}
+.price-input .MuiFormControl-root{
+  width: 100%;
+}
+.MuiFormControl-root label{
+    line-height: .8rem;
+    color:rgba(0,0,0,.5);
+    font-family: vazir;
+    font-size: 12px;
+    overflow: initial;
+    background: #fff;
+    padding: 2px 5px;
+}
+.filterComponent{
+    min-width: 200px;
+}
+.DatePicker input{
+    padding: 7px 0 !important;
+    
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+.holder{
+    display: flex;
+
+}
+.collapseMenu{
+    margin: auto 20px auto -20px;
+}
+.sidePart{
+    display: block;
+}
+.mainPart{
+    display: block;
+}
+@media(max-width:700px){
+    .hideMobile{
+        display: none !important;
+    }
+}
+
+
+
+/*Overide*/
+.statue-div div {
+    margin: 0 8px;
+}
+.page-counter {
+    direction: ltr;
+}
+.user-list td ,.cu-name p{
+    text-align: initial;
+}
+.user-list th:nth-child(2){
+    text-align: initial;
+}
+.user-list img{
+  max-width: 100px;
+}
+.cu-avatar img {
+    margin: auto 8px;
+}
+.dense-btn {
+    width: 45%;
+}
+.sub-more-menu{
+    display: inherit;  
+    right: auto;
+    left: 27px;
+    top: 0px;
+}
+.formInput{
+    margin:15px !important;
+}
+.footerFix{
+    position: fixed;
+  bottom: 0;
+}
+.text-white .nav-link{
+    color:#fff !important;
+}
+
+.activeAccordion{
+    background-color: azure;
+}
+.accordion{
+    cursor: pointer;
+}
+.inlineRow{
+    flex-direction: row;
+    justify-content: initial;
+}
+.icon-lg i {
+    top: 20%;
+}
+.me-2 {
+    margin: auto 0.5rem !important;
+}
+.ps__rtl{
+    direction: rtl;
+}
+.ps-4 {
+    padding-right: 1.5rem !important;
+}
+.ms-2 {
+    margin-right: 0.5rem !important;
+}
+.me-3 {
+    margin-left: 1rem !important;
+  }
+  .DatePicker__input{
+    font-size: 15px !important;
+  border: 1px solid silver !important;
+  border-radius: 4px;
+  }
+  .list-container{
+    overflow: initial;
+  }
+  .-top{
+    top: calc(100% + 20px) !important;
+    bottom: auto !important;
+  }
+  .ms-md-right{
+    margin-right: auto !important;
+  }
+  .checkBoxStyle{
+    text-align: center !important;
+  }
+  .sub-avatar-container img {
+    margin: 0 16px;
+    height: 50px;
+    object-fit: contain;
+  }
+  .cu-avatar{
+    position: relative;
+  }
+  .cu-avatar i{
+    position: absolute;
+    right:0;
+    top:0;
+  }
+  .user-statue {
+    gap: 0 40px;
+    flex-wrap: wrap;
+  }
+  .info-post{
+    display: flex;
+    justify-content: space-around;
+  }
+  .info-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .checkIcon{
+    color: green;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .cancelIcon{
+    color: orangered;
+  }
+  .checkIcon:hover{
+    background-color: green;
+    color: #fff;
+  }
+  .cancelIcon:hover{
+    background-color: orangered;
+  }
+  .cu-info-wrapper img {
+    margin-left: 16px;
+  }
+  .sub-order-table {
+    background-color: #f4f6f8;
+    padding:10px;
+  }
+  .sub-row {
+    margin-bottom: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .disableIcon{
+    color:silver;
+  }
+  .errorHandler{
+    position: fixed;
+    top: 20px;
+    left:0;
+    background-color: rgba(255,255,255,.6);
+    padding: 30px 100px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .add-btn {
+    color:#333;
+    background-color: lightgreen;
+  }
+  .add-btn:hover {
+    border-color: green;
+    background-color: green;
+    color:#fff;
+  }
+  .serviceItem{
+    padding: 0.5rem 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .serviceItem .MuiFormControl-root{
+    width: 90%;
+    margin-block: 10px;
+    padding-left:1rem;
+    
+  }
+  .popup-brand {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:0 0 15px 15px;
+    padding: 5px 10px;
+    margin: auto;
+  }
+
+  dialog {
+    position: fixed;
+    border-radius: 0;
+    display: block;
+    top: 0;
+    height: 100%;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+  }
+  .manageIcon{
+    position: absolute;
+    left: 10%;
+    top: 10px;
+    border: 1px solid silver;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 3px;
+  }
+  .manageIconLtr{
+    left:auto;
+    right: 6%;
+  }
+  .manageIcon:hover{
+    border-color: #333;
+  }
+  .price-input{
+    position: relative;
+  }
+  .price-input .showPassRTL,.price-input .showPass{
+    top:17px;
+  }
+  .sale-input input{
+    margin:auto 5px;
+  }
+  .box .nav-link:hover{
+    background: linear-gradient(195deg, #827ef1 0%, #6070d8 100%) !important;
+  }
+  .create-btn-wrapper p { width: 17%;}
+  .halfWidth{
+    width: 41%;
+  }
+  .fullWidth{
+    width: 95%;
+  }
+  .regular-price i, .sale-price i, .tax-active-wrapper i {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    z-index: 10;
+  }
+
+  .cu-avatar img {
+    height: 50px;
+    object-fit: cover;
+  }
+  .contentTextEditor{
+    padding-top: 50px;
+    width: 100%;
+  }
+  .images{
+    position: relative;
+  }
+  .images img{
+    position: absolute;
+    left: 10px;
+    top:50px;
+    width: calc(100% - 300px);
+    max-height: 200px;
+    object-fit: contain;
+  }
+  .imageHolder{
+    width: 100%;
+    margin-right:30px;
+  }
+  .phone-num{
+    direction: ltr;
+  }
+
+  .sampleScroller{
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+  }
+
+  .boxTrack{
+    left:2px;
+    right: auto; 
+    opacity: 0;
+    position: absolute;
+    width: 6px;
+    transition: opacity 200ms ease 0s;
+    bottom: 2px;
+    top: 2px;
+    border-radius: 3px
+  }
+  .boxThumb{
+    background-color: #fff;
+    border-radius:4px;
+  }
+  .box{
+    position: absolute;
+    inset: 0px;
+    overflow: scroll;
+    margin-left: -19px;
+    margin-bottom: -19px;
+    padding: 15;
+  }
+  .pe-1 {
+    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
+  }
+  .topMenu .nav-link{
+    font-size: 1.2rem;
+    padding: 0 7px !important;
+  }
+  .topMenu .nav-link i:hover{
+    color:var(--bs-primary);
+    transition: .3s all;
+  }
+  .avatar {
+    object-fit: cover;
+  }
+  .progress .w-100{
+    background-color: darkgreen;
+  }
+  .progress .w-95{
+    background-color: forestgreen;
+  }
+  .progress .w-90{
+    background-color: limegreen;
+  }
+  .progress .w-85{
+    background-color: lime;
+  }
+  .progress .w-80{
+    background-color: lawngreen;
+  }
+  .progress .w-75{
+    background-color: greenyellow;
+  }
+  .progress .w-70{
+    background-color: yellow;
+  }
+  .progress .w-65{
+    background-color: gold;
+  }
+  .progress .w-60{
+    background-color: orange;
+  }
+  .progress .w-55{
+    background-color: darkorange;
+  }
+  .progress .w-50{
+    background-color: orangered;
+  }
+  .progress .w-45,.progress .w-40,.progress .w-35,
+  .progress .w-30,.progress .w-25,.progress .w-20
+  {
+    background-color: tomato;
+  }
+
+  .timeline-step-rtl{
+    right:auto;
+    left:1rem;
+  }
+  
+  .main-setting{
+    width: 100%;
+  }
+  .settingSide{
+    top:70px !important;
+  }
+  .py-4 {
+    height: auto;
+  }
+  .flexJustify{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cu-company p{
+    text-align: center;
+  }
+  .cu-role p {
+    text-align: center;
+  }
+  .circle{
+    width: 40px;
+    height: 40px;
+    border: 5px solid lightgreen;
+    margin:0 5px;
+    border-radius: 50%;
+    text-align: center;
+  line-height: 2.5;
+  }
+  .predict-100{
+    border-color: darkgreen;
+  }
+  .predict-95{
+    border-color: forestgreen;
+  }
+  .predict-90{
+    border-color: limegreen;
+  }
+  .predict-85{
+    border-color: lime;
+  }
+  .predict-80{
+    border-color: lawngreen;
+  }
+  .predict-75{
+    border-color: greenyellow;
+  }
+  .predict-70{
+    border-color: yellow;
+  }
+  .predict-65{
+    border-color: gold;
+  }
+  .predict-60{
+    border-color: orange;
+  }
+  .predict-55{
+    border-color: darkorange;
+  }
+  .predict-50{
+    border-color: orangered;
+  }
+  .predict-45,.predict-40,.predict-35,
+  .predict-30,.predict-25,.predict-20
+  {
+    border-color: tomato;
+  }
+  .predict-15,.predict-10,.predict-5,.predict-0
+  {
+    border-color: red;
+  }
+
+  .more-btn{
+    position: relative;
+  }
+
+  .popNow{
+    position: fixed;
+    z-index: 10000;
+    top: 16px;
+    left: 20px;
+    background-color: #fff;
+    width: 1400px;
+    height: 1000px;
+    padding: 20px;
+  }
+  .resourceTable{
+    width: 300px;
+    border-collapse:separate;
+  }
+  .resourceTable th{
+    padding: 2px !important;
+    text-align: center !important;
+  }
+  .resourceTable td{
+    padding: 5px 15px !important;
+    text-align: center !important;
+  }
+  .resourceTable .alertCell{
+    border: 1px solid orangered;
+    border-radius: 4px;
+  }
