@@ -1,0 +1,1225 @@
+07:09:57.823984 IP _gateway.5359 > sepehr.ssh: Flags [.], ack 3954660396, win 4106, length 0
+07:09:57.824713 IP sepehr.ssh > _gateway.5359: Flags [P.], seq 1:209, ack 0, win 3074, length 208
+07:09:57.870675 IP _gateway.5359 > sepehr.ssh: Flags [.], ack 209, win 4105, length 0
+07:09:58.050476 IP _gateway.54377 > sepehr.1234: Flags [S], seq 1654605411, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:58.050510 IP sepehr.1234 > _gateway.54377: Flags [R.], seq 0, ack 1654605412, win 0, length 0
+07:09:58.051603 IP _gateway.54378 > sepehr.1234: Flags [S], seq 825809146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:58.051626 IP sepehr.1234 > _gateway.54378: Flags [R.], seq 0, ack 825809147, win 0, length 0
+07:09:58.155362 IP _gateway.57594 > sepehr.1234: Flags [S], seq 3803652163, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:09:58.155401 IP sepehr.1234 > _gateway.57594: Flags [R.], seq 0, ack 3803652164, win 0, length 0
+07:09:58.156524 IP _gateway.57595 > sepehr.1234: Flags [S], seq 1126352297, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:58.156540 IP sepehr.1234 > _gateway.57595: Flags [R.], seq 0, ack 1126352298, win 0, length 0
+07:09:58.562454 IP _gateway.54378 > sepehr.1234: Flags [S], seq 825809146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:58.562489 IP sepehr.1234 > _gateway.54378: Flags [R.], seq 0, ack 1, win 0, length 0
+07:09:58.658044 IP _gateway.57595 > sepehr.1234: Flags [S], seq 1126352297, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:58.658068 IP sepehr.1234 > _gateway.57595: Flags [R.], seq 0, ack 1, win 0, length 0
+07:09:58.829886 IP sepehr.39997 > pdc.qomstp.local.domain: 13538+ [1au] PTR? 155.1.168.192.in-addr.arpa. (55)
+07:09:58.830248 ARP, Request who-has sepehr tell pdc.qomstp.local, length 46
+07:09:58.830263 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:09:58.830356 IP pdc.qomstp.local.domain > sepehr.39997: 13538 NXDomain* 0/1/1 (139)
+07:09:58.830459 IP sepehr.39997 > pdc.qomstp.local.domain: 13538+ PTR? 155.1.168.192.in-addr.arpa. (44)
+07:09:58.830557 IP pdc.qomstp.local.domain > sepehr.39997: 13538 NXDomain* 0/1/0 (128)
+07:09:58.831195 IP sepehr.38570 > pdc.qomstp.local.domain: 59689+ [1au] PTR? 4.1.168.192.in-addr.arpa. (53)
+07:09:58.831327 IP pdc.qomstp.local.domain > sepehr.38570: 59689 NXDomain* 0/1/1 (137)
+07:09:58.831408 IP sepehr.38570 > pdc.qomstp.local.domain: 59689+ PTR? 4.1.168.192.in-addr.arpa. (42)
+07:09:58.831492 IP pdc.qomstp.local.domain > sepehr.38570: 59689 NXDomain* 0/1/0 (126)
+07:09:59.072281 IP _gateway.54378 > sepehr.1234: Flags [S], seq 825809146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:59.072317 IP sepehr.1234 > _gateway.54378: Flags [R.], seq 0, ack 1, win 0, length 0
+07:09:59.159951 IP _gateway.57595 > sepehr.1234: Flags [S], seq 1126352297, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:09:59.159988 IP sepehr.1234 > _gateway.57595: Flags [R.], seq 0, ack 1, win 0, length 0
+07:09:59.161245 IP _gateway.57596 > sepehr.1234: Flags [S], seq 3981773502, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:59.161258 IP sepehr.1234 > _gateway.57596: Flags [R.], seq 0, ack 3981773503, win 0, length 0
+07:09:59.586269 IP _gateway.54378 > sepehr.1234: Flags [S], seq 825809146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:59.586309 IP sepehr.1234 > _gateway.54378: Flags [R.], seq 0, ack 1, win 0, length 0
+07:09:59.662111 IP _gateway.57596 > sepehr.1234: Flags [S], seq 3981773502, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:09:59.662146 IP sepehr.1234 > _gateway.57596: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:00.100436 IP _gateway.54378 > sepehr.1234: Flags [S], seq 825809146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:00.100478 IP sepehr.1234 > _gateway.54378: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:00.101500 IP _gateway.54379 > sepehr.1234: Flags [S], seq 3747056069, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:00.101517 IP sepehr.1234 > _gateway.54379: Flags [R.], seq 0, ack 3747056070, win 0, length 0
+07:10:00.163026 IP _gateway.57596 > sepehr.1234: Flags [S], seq 3981773502, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:00.163067 IP sepehr.1234 > _gateway.57596: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:00.164433 IP _gateway.57597 > sepehr.1234: Flags [S], seq 2128747337, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:00.164451 IP sepehr.1234 > _gateway.57597: Flags [R.], seq 0, ack 2128747338, win 0, length 0
+07:10:00.616390 IP _gateway.54379 > sepehr.1234: Flags [S], seq 3747056069, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:00.616429 IP sepehr.1234 > _gateway.54379: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:00.666179 IP _gateway.57597 > sepehr.1234: Flags [S], seq 2128747337, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:00.666218 IP sepehr.1234 > _gateway.57597: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:01.127792 IP _gateway.54379 > sepehr.1234: Flags [S], seq 3747056069, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:01.127826 IP sepehr.1234 > _gateway.54379: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:01.166424 IP _gateway.57597 > sepehr.1234: Flags [S], seq 2128747337, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:01.166447 IP sepehr.1234 > _gateway.57597: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:01.167777 IP _gateway.57598 > sepehr.1234: Flags [S], seq 3313101005, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:01.167791 IP sepehr.1234 > _gateway.57598: Flags [R.], seq 0, ack 3313101006, win 0, length 0
+07:10:01.641326 IP _gateway.54379 > sepehr.1234: Flags [S], seq 3747056069, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:01.641362 IP sepehr.1234 > _gateway.54379: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:01.668419 IP _gateway.57598 > sepehr.1234: Flags [S], seq 3313101005, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:01.668437 IP sepehr.1234 > _gateway.57598: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:02.153370 IP _gateway.54379 > sepehr.1234: Flags [S], seq 3747056069, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:02.153409 IP sepehr.1234 > _gateway.54379: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:02.154582 IP _gateway.54380 > sepehr.1234: Flags [S], seq 1737767811, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:02.154599 IP sepehr.1234 > _gateway.54380: Flags [R.], seq 0, ack 1737767812, win 0, length 0
+07:10:02.169504 IP _gateway.57598 > sepehr.1234: Flags [S], seq 3313101005, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:02.169516 IP sepehr.1234 > _gateway.57598: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:02.170869 IP _gateway.57599 > sepehr.1234: Flags [S], seq 569640095, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:02.170888 IP sepehr.1234 > _gateway.57599: Flags [R.], seq 0, ack 569640096, win 0, length 0
+07:10:02.483089 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:02.666975 IP _gateway.54380 > sepehr.1234: Flags [S], seq 1737767811, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:02.667010 IP sepehr.1234 > _gateway.54380: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:02.672313 IP _gateway.57599 > sepehr.1234: Flags [S], seq 569640095, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:02.672327 IP sepehr.1234 > _gateway.57599: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:02.925608 IP sepehr.47508 > pdc.qomstp.local.domain: 10932+ [1au] PTR? 151.1.168.192.in-addr.arpa. (55)
+07:10:02.925860 IP pdc.qomstp.local.domain > sepehr.47508: 10932 NXDomain* 0/1/1 (139)
+07:10:02.927560 IP sepehr.47508 > pdc.qomstp.local.domain: 10932+ PTR? 151.1.168.192.in-addr.arpa. (44)
+07:10:02.927720 IP pdc.qomstp.local.domain > sepehr.47508: 10932 NXDomain* 0/1/0 (128)
+07:10:02.928131 IP sepehr.56470 > pdc.qomstp.local.domain: 19279+ [1au] PTR? 150.1.168.192.in-addr.arpa. (55)
+07:10:02.928306 IP pdc.qomstp.local.domain > sepehr.56470: 19279 NXDomain* 0/1/1 (139)
+07:10:02.928362 IP sepehr.56470 > pdc.qomstp.local.domain: 19279+ PTR? 150.1.168.192.in-addr.arpa. (44)
+07:10:02.928446 IP pdc.qomstp.local.domain > sepehr.56470: 19279 NXDomain* 0/1/0 (128)
+07:10:03.174104 IP _gateway.57599 > sepehr.1234: Flags [S], seq 569640095, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:03.174141 IP sepehr.1234 > _gateway.57599: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:03.175565 IP _gateway.57600 > sepehr.1234: Flags [S], seq 1563575832, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:03.175578 IP sepehr.1234 > _gateway.57600: Flags [R.], seq 0, ack 1563575833, win 0, length 0
+07:10:03.179060 IP _gateway.54380 > sepehr.1234: Flags [S], seq 1737767811, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:03.179072 IP sepehr.1234 > _gateway.54380: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:03.422162 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:03.676670 IP _gateway.57600 > sepehr.1234: Flags [S], seq 1563575832, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:03.676703 IP sepehr.1234 > _gateway.57600: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:03.692323 IP _gateway.54380 > sepehr.1234: Flags [S], seq 1737767811, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:03.692336 IP sepehr.1234 > _gateway.54380: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:04.045009 ARP, Request who-has pdc.qomstp.local tell sepehr, length 28
+07:10:04.045142 ARP, Reply pdc.qomstp.local is-at 00:0c:29:28:bf:5c (oui Unknown), length 46
+07:10:04.178746 IP _gateway.57600 > sepehr.1234: Flags [S], seq 1563575832, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:04.178784 IP sepehr.1234 > _gateway.57600: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:04.180147 IP _gateway.57601 > sepehr.1234: Flags [S], seq 3634057974, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:04.180163 IP sepehr.1234 > _gateway.57601: Flags [R.], seq 0, ack 3634057975, win 0, length 0
+07:10:04.193414 IP _gateway.54380 > sepehr.1234: Flags [S], seq 1737767811, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:04.193431 IP sepehr.1234 > _gateway.54380: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:04.194419 IP _gateway.54381 > sepehr.1234: Flags [S], seq 3359252852, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:04.194434 IP sepehr.1234 > _gateway.54381: Flags [R.], seq 0, ack 3359252853, win 0, length 0
+07:10:04.420564 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:04.681539 IP _gateway.57601 > sepehr.1234: Flags [S], seq 3634057974, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:04.681580 IP sepehr.1234 > _gateway.57601: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:04.707096 IP _gateway.54381 > sepehr.1234: Flags [S], seq 3359252852, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:04.707110 IP sepehr.1234 > _gateway.54381: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:05.182633 IP _gateway.57601 > sepehr.1234: Flags [S], seq 3634057974, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:05.182667 IP sepehr.1234 > _gateway.57601: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:05.184082 IP _gateway.57602 > sepehr.1234: Flags [S], seq 2751846362, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:05.184102 IP sepehr.1234 > _gateway.57602: Flags [R.], seq 0, ack 2751846363, win 0, length 0
+07:10:05.219723 IP _gateway.54381 > sepehr.1234: Flags [S], seq 3359252852, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:05.219751 IP sepehr.1234 > _gateway.54381: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:05.394418 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:05.684762 IP _gateway.57602 > sepehr.1234: Flags [S], seq 2751846362, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:05.684800 IP sepehr.1234 > _gateway.57602: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:05.732534 IP _gateway.54381 > sepehr.1234: Flags [S], seq 3359252852, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:05.732558 IP sepehr.1234 > _gateway.54381: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:06.185910 IP _gateway.57602 > sepehr.1234: Flags [S], seq 2751846362, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:06.185950 IP sepehr.1234 > _gateway.57602: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:06.187339 IP _gateway.57603 > sepehr.1234: Flags [S], seq 4133312260, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:06.187361 IP sepehr.1234 > _gateway.57603: Flags [R.], seq 0, ack 4133312261, win 0, length 0
+07:10:06.246396 IP _gateway.54381 > sepehr.1234: Flags [S], seq 3359252852, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:06.246427 IP sepehr.1234 > _gateway.54381: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:06.247431 IP _gateway.54382 > sepehr.1234: Flags [S], seq 3343439932, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:06.247452 IP sepehr.1234 > _gateway.54382: Flags [R.], seq 0, ack 3343439933, win 0, length 0
+07:10:06.336614 ARP, Request who-has 192.168.1.81 tell _gateway, length 46
+07:10:06.393183 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:06.688756 IP _gateway.57603 > sepehr.1234: Flags [S], seq 4133312260, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:06.688786 IP sepehr.1234 > _gateway.57603: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:06.748447 IP _gateway.54382 > sepehr.1234: Flags [S], seq 3343439932, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:06.748477 IP sepehr.1234 > _gateway.54382: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:07.021449 IP sepehr.37233 > pdc.qomstp.local.domain: 28786+ [1au] PTR? 81.1.168.192.in-addr.arpa. (54)
+07:10:07.021688 IP pdc.qomstp.local.domain > sepehr.37233: 28786 NXDomain* 0/1/1 (138)
+07:10:07.021780 IP sepehr.37233 > pdc.qomstp.local.domain: 28786+ PTR? 81.1.168.192.in-addr.arpa. (43)
+07:10:07.021929 IP pdc.qomstp.local.domain > sepehr.37233: 28786 NXDomain* 0/1/0 (127)
+07:10:07.189824 IP _gateway.57603 > sepehr.1234: Flags [S], seq 4133312260, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:07.189857 IP sepehr.1234 > _gateway.57603: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:07.191230 IP _gateway.57604 > sepehr.1234: Flags [S], seq 1712539749, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:07.191241 IP sepehr.1234 > _gateway.57604: Flags [R.], seq 0, ack 1712539750, win 0, length 0
+07:10:07.262094 IP _gateway.54382 > sepehr.1234: Flags [S], seq 3343439932, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:07.262122 IP sepehr.1234 > _gateway.54382: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:07.393036 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:07.691724 IP _gateway.57604 > sepehr.1234: Flags [S], seq 1712539749, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:07.691755 IP sepehr.1234 > _gateway.57604: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:07.775625 IP _gateway.54382 > sepehr.1234: Flags [S], seq 3343439932, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:07.775655 IP sepehr.1234 > _gateway.54382: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:07.871287 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 41737734:41737846, ack 129397341, win 32768, length 112
+07:10:07.871745 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1:81, ack 112, win 501, length 80
+07:10:07.872119 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 112:224, ack 81, win 32767, length 112
+07:10:07.872354 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 81:161, ack 224, win 501, length 80
+07:10:07.873030 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 224:320, ack 161, win 32766, length 96
+07:10:07.873223 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 161:273, ack 320, win 501, length 112
+07:10:07.873826 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 320:432, ack 273, win 32765, length 112
+07:10:07.876926 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 273:833, ack 432, win 501, length 560
+07:10:07.877103 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 833:913, ack 432, win 501, length 80
+07:10:07.877321 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 913, win 32760, length 0
+07:10:08.193005 IP _gateway.57604 > sepehr.1234: Flags [S], seq 1712539749, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:08.193044 IP sepehr.1234 > _gateway.57604: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:08.194311 IP _gateway.57605 > sepehr.1234: Flags [S], seq 60137791, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:08.194330 IP sepehr.1234 > _gateway.57605: Flags [R.], seq 0, ack 60137792, win 0, length 0
+07:10:08.289391 IP _gateway.54382 > sepehr.1234: Flags [S], seq 3343439932, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:08.289426 IP sepehr.1234 > _gateway.54382: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:08.290719 IP _gateway.54383 > sepehr.1234: Flags [S], seq 1169885314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:08.290735 IP sepehr.1234 > _gateway.54383: Flags [R.], seq 0, ack 1169885315, win 0, length 0
+07:10:08.393179 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:08.694963 IP _gateway.57605 > sepehr.1234: Flags [S], seq 60137791, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:08.695002 IP sepehr.1234 > _gateway.57605: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:08.774139 IP _gateway.53000 > sepehr.ssh: Flags [S], seq 199975362, win 29200, options [mss 1400,sackOK,TS val 1488760624 ecr 0,nop,wscale 7], length 0
+07:10:08.774173 IP sepehr.ssh > _gateway.53000: Flags [S.], seq 1965550856, ack 199975363, win 65160, options [mss 1460,sackOK,TS val 4277069133 ecr 1488760624,nop,wscale 7], length 0
+07:10:08.802582 IP _gateway.54383 > sepehr.1234: Flags [S], seq 1169885314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:08.802609 IP sepehr.1234 > _gateway.54383: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:09.000688 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:09.141467 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 432:544, ack 913, win 32760, length 112
+07:10:09.141752 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 913:993, ack 544, win 501, length 80
+07:10:09.142518 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 544:640, ack 993, win 32760, length 96
+07:10:09.142653 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 993:1105, ack 640, win 501, length 112
+07:10:09.143317 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 640:752, ack 1105, win 32759, length 112
+07:10:09.146157 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1105:1393, ack 752, win 501, length 288
+07:10:09.146340 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1393:1473, ack 752, win 501, length 80
+07:10:09.146558 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 1473, win 32768, length 0
+07:10:09.196076 IP _gateway.57605 > sepehr.1234: Flags [S], seq 60137791, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:09.196107 IP sepehr.1234 > _gateway.57605: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:09.197420 IP _gateway.57606 > sepehr.1234: Flags [S], seq 4116049000, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:09.197428 IP sepehr.1234 > _gateway.57606: Flags [R.], seq 0, ack 4116049001, win 0, length 0
+07:10:09.317120 IP _gateway.54383 > sepehr.1234: Flags [S], seq 1169885314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:09.317152 IP sepehr.1234 > _gateway.54383: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:09.392793 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:09.698370 IP _gateway.57606 > sepehr.1234: Flags [S], seq 4116049000, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:09.698406 IP sepehr.1234 > _gateway.57606: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:09.809005 IP sepehr.ssh > _gateway.53000: Flags [S.], seq 1965550856, ack 199975363, win 65160, options [mss 1460,sackOK,TS val 4277070168 ecr 1488760624,nop,wscale 7], length 0
+07:10:09.818072 IP _gateway.54383 > sepehr.1234: Flags [S], seq 1169885314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:09.818094 IP sepehr.1234 > _gateway.54383: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:09.927324 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:10.120953 IP _gateway.53000 > sepehr.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1488761971 ecr 4277069133], length 0
+07:10:10.127413 IP _gateway.5359 > sepehr.ssh: Flags [P.], seq 0:48, ack 209, win 4105, length 48
+07:10:10.135394 IP sepehr.ssh > _gateway.53000: Flags [P.], seq 1:43, ack 1, win 510, options [nop,nop,TS val 4277070494 ecr 1488760624], length 42
+07:10:10.181008 IP sepehr.ssh > _gateway.5359: Flags [.], ack 48, win 3074, length 0
+07:10:10.200339 IP _gateway.57606 > sepehr.1234: Flags [S], seq 4116049000, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:10.200362 IP sepehr.1234 > _gateway.57606: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:10.201705 IP _gateway.57607 > sepehr.1234: Flags [S], seq 1032269559, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:10.201726 IP sepehr.1234 > _gateway.57607: Flags [R.], seq 0, ack 1032269560, win 0, length 0
+07:10:10.332636 IP _gateway.54383 > sepehr.1234: Flags [S], seq 1169885314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:10.332667 IP sepehr.1234 > _gateway.54383: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:10.333693 IP _gateway.54384 > sepehr.1234: Flags [S], seq 3596234778, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:10.333703 IP sepehr.1234 > _gateway.54384: Flags [R.], seq 0, ack 3596234779, win 0, length 0
+07:10:10.392685 ARP, Request who-has voipreport.qomstp.local tell _gateway, length 46
+07:10:10.692089 IP _gateway.53000 > sepehr.ssh: Flags [P.], seq 23:999, ack 43, win 229, options [nop,nop,TS val 1488762542 ecr 4277070494], length 976
+07:10:10.692118 IP sepehr.ssh > _gateway.53000: Flags [.], ack 1, win 510, options [nop,nop,TS val 4277071051 ecr 1488760624,nop,nop,sack 1 {23:999}], length 0
+07:10:10.702505 IP _gateway.57607 > sepehr.1234: Flags [S], seq 1032269559, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:10.702528 IP sepehr.1234 > _gateway.57607: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:10.790787 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 752:944, ack 1473, win 32768, length 192
+07:10:10.791594 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1473:1553, ack 944, win 501, length 80
+07:10:10.791966 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 944:1008, ack 1553, win 32767, length 64
+07:10:10.794389 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1553:1633, ack 1008, win 501, length 80
+07:10:10.794680 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 1008:1072, ack 1633, win 32766, length 64
+07:10:10.794811 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1633:1713, ack 1072, win 501, length 80
+07:10:10.798814 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 1072:1136, ack 1713, win 32766, length 64
+07:10:10.799091 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 1713:9013, ack 1136, win 501, length 7300
+07:10:10.799114 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 9013:16313, ack 1136, win 501, length 7300
+07:10:10.799726 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 4633, win 32768, length 0
+07:10:10.799749 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 16313:19233, ack 1136, win 501, length 2920
+07:10:10.799960 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 7553, win 32768, length 0
+07:10:10.800207 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 10473, win 32768, length 0
+07:10:10.800221 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 19233:22321, ack 1136, win 501, length 3088
+07:10:10.800451 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 13393, win 32768, length 0
+07:10:10.800708 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 16313, win 32768, length 0
+07:10:10.800948 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 19233, win 32768, length 0
+07:10:10.801191 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 22153, win 32768, length 0
+07:10:10.801847 IP _gateway.9912 > sepehr.ssh: Flags [P.], seq 1136:1200, ack 22321, win 32766, length 64
+07:10:10.802266 IP sepehr.ssh > _gateway.9912: Flags [P.], seq 22321:22401, ack 1200, win 501, length 80
+07:10:10.845744 IP _gateway.54384 > sepehr.1234: Flags [S], seq 3596234778, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:10.845780 IP sepehr.1234 > _gateway.54384: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:10.846798 IP _gateway.9912 > sepehr.ssh: Flags [.], ack 22401, win 32766, length 0
+07:10:10.925725 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:11.204054 IP _gateway.57607 > sepehr.1234: Flags [S], seq 1032269559, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:11.204088 IP sepehr.1234 > _gateway.57607: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:11.205301 IP _gateway.57608 > sepehr.1234: Flags [S], seq 1181577246, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:11.205320 IP sepehr.1234 > _gateway.57608: Flags [R.], seq 0, ack 1181577247, win 0, length 0
+07:10:11.347508 IP _gateway.54384 > sepehr.1234: Flags [S], seq 3596234778, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:11.347539 IP sepehr.1234 > _gateway.54384: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:11.706815 IP _gateway.57608 > sepehr.1234: Flags [S], seq 1181577246, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:11.706848 IP sepehr.1234 > _gateway.57608: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:11.861060 IP _gateway.54384 > sepehr.1234: Flags [S], seq 3596234778, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:11.861093 IP sepehr.1234 > _gateway.54384: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:12.002190 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:12.207926 IP _gateway.57608 > sepehr.1234: Flags [S], seq 1181577246, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:12.207958 IP sepehr.1234 > _gateway.57608: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:12.209324 IP _gateway.57609 > sepehr.1234: Flags [S], seq 4104671053, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:12.209344 IP sepehr.1234 > _gateway.57609: Flags [R.], seq 0, ack 4104671054, win 0, length 0
+07:10:12.375742 IP _gateway.54384 > sepehr.1234: Flags [S], seq 3596234778, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:12.375781 IP sepehr.1234 > _gateway.54384: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:12.376844 IP _gateway.54385 > sepehr.1234: Flags [S], seq 2774575446, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:12.376858 IP sepehr.1234 > _gateway.54385: Flags [R.], seq 0, ack 2774575447, win 0, length 0
+07:10:12.710551 IP _gateway.57609 > sepehr.1234: Flags [S], seq 4104671053, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:12.710583 IP sepehr.1234 > _gateway.57609: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:12.877747 IP _gateway.54385 > sepehr.1234: Flags [S], seq 2774575446, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:12.877782 IP sepehr.1234 > _gateway.54385: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:12.922544 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:13.211714 IP _gateway.57609 > sepehr.1234: Flags [S], seq 4104671053, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:13.211753 IP sepehr.1234 > _gateway.57609: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:13.213140 IP _gateway.57610 > sepehr.1234: Flags [S], seq 4257295881, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:13.213163 IP sepehr.1234 > _gateway.57610: Flags [R.], seq 0, ack 4257295882, win 0, length 0
+07:10:13.391312 IP _gateway.54385 > sepehr.1234: Flags [S], seq 2774575446, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:13.391349 IP sepehr.1234 > _gateway.54385: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:13.713896 IP _gateway.57610 > sepehr.1234: Flags [S], seq 4257295881, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:13.713932 IP sepehr.1234 > _gateway.57610: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:13.906664 IP _gateway.54385 > sepehr.1234: Flags [S], seq 2774575446, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:13.906694 IP sepehr.1234 > _gateway.54385: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:13.920931 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:14.215391 IP _gateway.57610 > sepehr.1234: Flags [S], seq 4257295881, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:14.215430 IP sepehr.1234 > _gateway.57610: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:14.216657 IP _gateway.57611 > sepehr.1234: Flags [S], seq 1177338768, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:14.216670 IP sepehr.1234 > _gateway.57611: Flags [R.], seq 0, ack 1177338769, win 0, length 0
+07:10:14.419194 IP _gateway.54385 > sepehr.1234: Flags [S], seq 2774575446, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:14.419229 IP sepehr.1234 > _gateway.54385: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:14.420627 IP _gateway.54386 > sepehr.1234: Flags [S], seq 3326609923, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:14.420651 IP sepehr.1234 > _gateway.54386: Flags [R.], seq 0, ack 3326609924, win 0, length 0
+07:10:14.717912 IP _gateway.57611 > sepehr.1234: Flags [S], seq 1177338768, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:14.717952 IP sepehr.1234 > _gateway.57611: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:14.934700 IP _gateway.54386 > sepehr.1234: Flags [S], seq 3326609923, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:14.934736 IP sepehr.1234 > _gateway.54386: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:15.219846 IP _gateway.57611 > sepehr.1234: Flags [S], seq 1177338768, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:15.219881 IP sepehr.1234 > _gateway.57611: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:15.221200 IP _gateway.57612 > sepehr.1234: Flags [S], seq 1471742220, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:15.221212 IP sepehr.1234 > _gateway.57612: Flags [R.], seq 0, ack 1471742221, win 0, length 0
+07:10:15.449292 IP _gateway.54386 > sepehr.1234: Flags [S], seq 3326609923, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:15.449326 IP sepehr.1234 > _gateway.54386: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:15.723073 IP _gateway.57612 > sepehr.1234: Flags [S], seq 1471742220, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:15.723107 IP sepehr.1234 > _gateway.57612: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:15.963193 IP _gateway.54386 > sepehr.1234: Flags [S], seq 3326609923, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:15.963232 IP sepehr.1234 > _gateway.54386: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:16.223353 IP _gateway.57612 > sepehr.1234: Flags [S], seq 1471742220, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:16.223393 IP sepehr.1234 > _gateway.57612: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:16.224711 IP _gateway.57613 > sepehr.1234: Flags [S], seq 2710349724, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:16.224739 IP sepehr.1234 > _gateway.57613: Flags [R.], seq 0, ack 2710349725, win 0, length 0
+07:10:16.478634 IP _gateway.54386 > sepehr.1234: Flags [S], seq 3326609923, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:16.478687 IP sepehr.1234 > _gateway.54386: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:16.480048 IP _gateway.54387 > sepehr.1234: Flags [S], seq 3249854314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:16.480070 IP sepehr.1234 > _gateway.54387: Flags [R.], seq 0, ack 3249854315, win 0, length 0
+07:10:16.725360 IP _gateway.57613 > sepehr.1234: Flags [S], seq 2710349724, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:16.725393 IP sepehr.1234 > _gateway.57613: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:16.991267 IP _gateway.54387 > sepehr.1234: Flags [S], seq 3249854314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:16.991304 IP sepehr.1234 > _gateway.54387: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:17.226968 IP _gateway.57613 > sepehr.1234: Flags [S], seq 2710349724, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:17.227006 IP sepehr.1234 > _gateway.57613: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:17.228035 IP _gateway.57614 > sepehr.1234: Flags [S], seq 3104721790, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:17.228047 IP sepehr.1234 > _gateway.57614: Flags [R.], seq 0, ack 3104721791, win 0, length 0
+07:10:17.493382 IP _gateway.54387 > sepehr.1234: Flags [S], seq 3249854314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:17.493413 IP sepehr.1234 > _gateway.54387: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:17.590074 IP _gateway.53000 > sepehr.ssh: Flags [P.], seq 1:23, ack 43, win 229, options [nop,nop,TS val 1488769440 ecr 4277071051], length 22
+07:10:17.590112 IP sepehr.ssh > _gateway.53000: Flags [.], ack 999, win 503, options [nop,nop,TS val 4277077949 ecr 1488769440], length 0
+07:10:17.592020 IP sepehr.ssh > _gateway.53000: Flags [P.], seq 43:1123, ack 999, win 503, options [nop,nop,TS val 4277077951 ecr 1488769440], length 1080
+07:10:17.728057 IP _gateway.57614 > sepehr.1234: Flags [S], seq 3104721790, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:17.728094 IP sepehr.1234 > _gateway.57614: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:17.902183 IP _gateway.53000 > sepehr.ssh: Flags [F.], seq 999, ack 43, win 229, options [nop,nop,TS val 1488769751 ecr 4277077949], length 0
+07:10:17.903514 IP sepehr.ssh > _gateway.53000: Flags [F.], seq 1123, ack 1000, win 503, options [nop,nop,TS val 4277078262 ecr 1488769751], length 0
+07:10:18.004643 IP _gateway.54387 > sepehr.1234: Flags [S], seq 3249854314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:18.004682 IP sepehr.1234 > _gateway.54387: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:18.008195 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:18.228660 IP _gateway.57614 > sepehr.1234: Flags [S], seq 3104721790, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:18.228695 IP sepehr.1234 > _gateway.57614: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:18.230112 IP _gateway.57615 > sepehr.1234: Flags [S], seq 1055571032, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:18.230126 IP sepehr.1234 > _gateway.57615: Flags [R.], seq 0, ack 1055571033, win 0, length 0
+07:10:18.516092 IP _gateway.54387 > sepehr.1234: Flags [S], seq 3249854314, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:18.516131 IP sepehr.1234 > _gateway.54387: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:18.517894 IP _gateway.54388 > sepehr.1234: Flags [S], seq 852932477, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:18.517903 IP sepehr.1234 > _gateway.54388: Flags [R.], seq 0, ack 852932478, win 0, length 0
+07:10:18.730871 IP _gateway.57615 > sepehr.1234: Flags [S], seq 1055571032, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:18.730905 IP sepehr.1234 > _gateway.57615: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:18.787035 IP _gateway.48704 > sepehr.ssh: Flags [S], seq 2212189632, win 64240, options [mss 1400,sackOK,TS val 2506449508 ecr 0,nop,wscale 7], length 0
+07:10:18.787073 IP sepehr.ssh > _gateway.48704: Flags [S.], seq 2806743070, ack 2212189633, win 65160, options [mss 1460,sackOK,TS val 4277079146 ecr 2506449508,nop,wscale 7], length 0
+07:10:18.879866 IP _gateway.48704 > sepehr.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 2506449601 ecr 4277079146], length 0
+07:10:18.879923 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 1:23, ack 1, win 502, options [nop,nop,TS val 2506449601 ecr 4277079146], length 22
+07:10:18.879940 IP sepehr.ssh > _gateway.48704: Flags [.], ack 23, win 509, options [nop,nop,TS val 4277079238 ecr 2506449601], length 0
+07:10:18.897249 IP sepehr.ssh > _gateway.48704: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 4277079256 ecr 2506449601], length 42
+07:10:18.928560 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:18.987717 IP _gateway.48704 > sepehr.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 2506449709 ecr 4277079256], length 0
+07:10:18.987747 IP sepehr.ssh > _gateway.48704: Flags [P.], seq 43:1123, ack 23, win 509, options [nop,nop,TS val 4277079346 ecr 2506449709], length 1080
+07:10:18.987855 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 23:999, ack 43, win 502, options [nop,nop,TS val 2506449709 ecr 4277079256], length 976
+07:10:18.987871 IP sepehr.ssh > _gateway.48704: Flags [.], ack 999, win 502, options [nop,nop,TS val 4277079346 ecr 2506449709], length 0
+07:10:19.032690 IP _gateway.54388 > sepehr.1234: Flags [S], seq 852932477, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:19.032719 IP sepehr.1234 > _gateway.54388: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:19.081110 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 999:1047, ack 1123, win 501, options [nop,nop,TS val 2506449802 ecr 4277079346], length 48
+07:10:19.081158 IP sepehr.ssh > _gateway.48704: Flags [.], ack 1047, win 502, options [nop,nop,TS val 4277079440 ecr 2506449802], length 0
+07:10:19.088869 IP sepehr.ssh > _gateway.48704: Flags [P.], seq 1123:1559, ack 1047, win 502, options [nop,nop,TS val 4277079447 ecr 2506449802], length 436
+07:10:19.181943 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 1047:1063, ack 1559, win 501, options [nop,nop,TS val 2506449903 ecr 4277079447], length 16
+07:10:19.181977 IP sepehr.ssh > _gateway.48704: Flags [.], ack 1063, win 502, options [nop,nop,TS val 4277079540 ecr 2506449903], length 0
+07:10:19.231330 IP _gateway.57615 > sepehr.1234: Flags [S], seq 1055571032, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:19.231357 IP sepehr.1234 > _gateway.57615: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:19.232673 IP _gateway.57616 > sepehr.1234: Flags [S], seq 1094171195, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:19.232692 IP sepehr.1234 > _gateway.57616: Flags [R.], seq 0, ack 1094171196, win 0, length 0
+07:10:19.274770 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 1063:1115, ack 1559, win 501, options [nop,nop,TS val 2506449996 ecr 4277079540], length 52
+07:10:19.274796 IP sepehr.ssh > _gateway.48704: Flags [.], ack 1115, win 502, options [nop,nop,TS val 4277079633 ecr 2506449996], length 0
+07:10:19.274889 IP sepehr.ssh > _gateway.48704: Flags [P.], seq 1559:1611, ack 1115, win 502, options [nop,nop,TS val 4277079633 ecr 2506449996], length 52
+07:10:19.367777 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 1115:1199, ack 1611, win 501, options [nop,nop,TS val 2506450089 ecr 4277079633], length 84
+07:10:19.367815 IP sepehr.ssh > _gateway.48704: Flags [.], ack 1199, win 502, options [nop,nop,TS val 4277079726 ecr 2506450089], length 0
+07:10:19.546422 IP _gateway.54388 > sepehr.1234: Flags [S], seq 852932477, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:19.546462 IP sepehr.1234 > _gateway.54388: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:19.734659 IP _gateway.57616 > sepehr.1234: Flags [S], seq 1094171195, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:19.734698 IP sepehr.1234 > _gateway.57616: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:19.926925 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:10:20.060915 IP _gateway.54388 > sepehr.1234: Flags [S], seq 852932477, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:20.060954 IP sepehr.1234 > _gateway.54388: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:20.235926 IP _gateway.57616 > sepehr.1234: Flags [S], seq 1094171195, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:20.235958 IP sepehr.1234 > _gateway.57616: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:20.237323 IP _gateway.57617 > sepehr.1234: Flags [S], seq 2404460872, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:20.237342 IP sepehr.1234 > _gateway.57617: Flags [R.], seq 0, ack 2404460873, win 0, length 0
+07:10:20.261343 ARP, Request who-has sepehr tell _gateway, length 46
+07:10:20.261355 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:10:20.432998 IP sepehr.ssh > _gateway.53000: Flags [F.], seq 1123, ack 1000, win 503, options [nop,nop,TS val 4277080792 ecr 1488769751], length 0
+07:10:20.574377 IP _gateway.54388 > sepehr.1234: Flags [S], seq 852932477, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:20.574409 IP sepehr.1234 > _gateway.54388: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:20.576202 IP _gateway.54389 > sepehr.1234: Flags [S], seq 4186565324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:20.576222 IP sepehr.1234 > _gateway.54389: Flags [R.], seq 0, ack 4186565325, win 0, length 0
+07:10:20.738546 IP _gateway.57617 > sepehr.1234: Flags [S], seq 2404460872, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:20.738586 IP sepehr.1234 > _gateway.57617: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:21.088152 IP _gateway.54389 > sepehr.1234: Flags [S], seq 4186565324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:21.088193 IP sepehr.1234 > _gateway.54389: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:21.240589 IP _gateway.57617 > sepehr.1234: Flags [S], seq 2404460872, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:21.240630 IP sepehr.1234 > _gateway.57617: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:21.242034 IP _gateway.57618 > sepehr.1234: Flags [S], seq 1824067733, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:21.242056 IP sepehr.1234 > _gateway.57618: Flags [R.], seq 0, ack 1824067734, win 0, length 0
+07:10:21.601329 IP _gateway.54389 > sepehr.1234: Flags [S], seq 4186565324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:21.601362 IP sepehr.1234 > _gateway.54389: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:21.717785 IP sepehr.ssh > _gateway.48704: Flags [P.], seq 1611:1663, ack 1199, win 502, options [nop,nop,TS val 4277082076 ecr 2506450089], length 52
+07:10:21.742913 IP _gateway.57618 > sepehr.1234: Flags [S], seq 1824067733, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:21.742944 IP sepehr.1234 > _gateway.57618: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:21.808246 IP _gateway.48704 > sepehr.ssh: Flags [P.], seq 1199:1251, ack 1663, win 501, options [nop,nop,TS val 2506452529 ecr 4277082076], length 52
+07:10:21.808277 IP sepehr.ssh > _gateway.48704: Flags [.], ack 1251, win 502, options [nop,nop,TS val 4277082167 ecr 2506452529], length 0
+07:10:21.808303 IP _gateway.48704 > sepehr.ssh: Flags [F.], seq 1251, ack 1663, win 501, options [nop,nop,TS val 2506452529 ecr 4277082076], length 0
+07:10:21.810022 IP sepehr.ssh > _gateway.48704: Flags [F.], seq 1663, ack 1252, win 502, options [nop,nop,TS val 4277082169 ecr 2506452529], length 0
+07:10:21.901108 IP _gateway.48704 > sepehr.ssh: Flags [.], ack 1664, win 501, options [nop,nop,TS val 2506452622 ecr 4277082169], length 0
+07:10:22.116986 IP _gateway.54389 > sepehr.1234: Flags [S], seq 4186565324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:22.117026 IP sepehr.1234 > _gateway.54389: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:22.244725 IP _gateway.57618 > sepehr.1234: Flags [S], seq 1824067733, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:22.244757 IP sepehr.1234 > _gateway.57618: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:22.246098 IP _gateway.57619 > sepehr.1234: Flags [S], seq 1051255410, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:22.246112 IP sepehr.1234 > _gateway.57619: Flags [R.], seq 0, ack 1051255411, win 0, length 0
+07:10:22.632232 IP _gateway.54389 > sepehr.1234: Flags [S], seq 4186565324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:22.632264 IP sepehr.1234 > _gateway.54389: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:22.633288 IP _gateway.54390 > sepehr.1234: Flags [S], seq 3002503994, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:22.633303 IP sepehr.1234 > _gateway.54390: Flags [R.], seq 0, ack 3002503995, win 0, length 0
+07:10:22.747303 IP _gateway.57619 > sepehr.1234: Flags [S], seq 1051255410, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:22.747333 IP sepehr.1234 > _gateway.57619: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:23.148618 IP _gateway.54390 > sepehr.1234: Flags [S], seq 3002503994, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:23.148653 IP sepehr.1234 > _gateway.54390: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:23.249344 IP _gateway.57619 > sepehr.1234: Flags [S], seq 1051255410, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:23.249380 IP sepehr.1234 > _gateway.57619: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:23.250722 IP _gateway.57620 > sepehr.1234: Flags [S], seq 1184679521, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:23.250735 IP sepehr.1234 > _gateway.57620: Flags [R.], seq 0, ack 1184679522, win 0, length 0
+07:10:23.661030 IP _gateway.54390 > sepehr.1234: Flags [S], seq 3002503994, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:23.661068 IP sepehr.1234 > _gateway.54390: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:23.751466 IP _gateway.57620 > sepehr.1234: Flags [S], seq 1184679521, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:23.751507 IP sepehr.1234 > _gateway.57620: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:24.174668 IP _gateway.54390 > sepehr.1234: Flags [S], seq 3002503994, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:24.174710 IP sepehr.1234 > _gateway.54390: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:24.252953 IP _gateway.57620 > sepehr.1234: Flags [S], seq 1184679521, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:24.252997 IP sepehr.1234 > _gateway.57620: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:24.254319 IP _gateway.57621 > sepehr.1234: Flags [S], seq 2009956520, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:24.254334 IP sepehr.1234 > _gateway.57621: Flags [R.], seq 0, ack 2009956521, win 0, length 0
+07:10:24.525012 IP sepehr.ssh > _gateway.53000: Flags [FP.], seq 43:1123, ack 1000, win 503, options [nop,nop,TS val 4277084884 ecr 1488769751], length 1080
+07:10:24.689563 IP _gateway.54390 > sepehr.1234: Flags [S], seq 3002503994, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:24.689598 IP sepehr.1234 > _gateway.54390: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:24.690625 IP _gateway.54391 > sepehr.1234: Flags [S], seq 1228356315, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:24.690638 IP sepehr.1234 > _gateway.54391: Flags [R.], seq 0, ack 1228356316, win 0, length 0
+07:10:24.755017 IP _gateway.57621 > sepehr.1234: Flags [S], seq 2009956520, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:24.755050 IP sepehr.1234 > _gateway.57621: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:25.204832 IP _gateway.54391 > sepehr.1234: Flags [S], seq 1228356315, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:25.204869 IP sepehr.1234 > _gateway.54391: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:25.256253 IP _gateway.57621 > sepehr.1234: Flags [S], seq 2009956520, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:25.256284 IP sepehr.1234 > _gateway.57621: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:25.257596 IP _gateway.57622 > sepehr.1234: Flags [S], seq 2264445772, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:25.257615 IP sepehr.1234 > _gateway.57622: Flags [R.], seq 0, ack 2264445773, win 0, length 0
+07:10:25.714996 IP _gateway.54391 > sepehr.1234: Flags [S], seq 1228356315, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:25.715029 IP sepehr.1234 > _gateway.54391: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:25.759088 IP _gateway.57622 > sepehr.1234: Flags [S], seq 2264445772, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:25.759120 IP sepehr.1234 > _gateway.57622: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:26.224634 IP _gateway.54391 > sepehr.1234: Flags [S], seq 1228356315, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:26.224682 IP sepehr.1234 > _gateway.54391: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:26.259552 IP _gateway.57622 > sepehr.1234: Flags [S], seq 2264445772, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:26.259578 IP sepehr.1234 > _gateway.57622: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:26.260876 IP _gateway.57623 > sepehr.1234: Flags [S], seq 3054968791, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:26.260889 IP sepehr.1234 > _gateway.57623: Flags [R.], seq 0, ack 3054968792, win 0, length 0
+07:10:26.739575 IP _gateway.54391 > sepehr.1234: Flags [S], seq 1228356315, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:26.739607 IP sepehr.1234 > _gateway.54391: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:26.740834 IP _gateway.54392 > sepehr.1234: Flags [S], seq 1354439238, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:26.740845 IP sepehr.1234 > _gateway.54392: Flags [R.], seq 0, ack 1354439239, win 0, length 0
+07:10:26.761681 IP _gateway.57623 > sepehr.1234: Flags [S], seq 3054968791, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:26.761702 IP sepehr.1234 > _gateway.57623: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:27.255402 IP _gateway.54392 > sepehr.1234: Flags [S], seq 1354439238, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:27.255436 IP sepehr.1234 > _gateway.54392: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:27.262838 IP _gateway.57623 > sepehr.1234: Flags [S], seq 3054968791, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:27.262854 IP sepehr.1234 > _gateway.57623: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:27.264215 IP _gateway.57624 > sepehr.1234: Flags [S], seq 2222402173, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:27.264243 IP sepehr.1234 > _gateway.57624: Flags [R.], seq 0, ack 2222402174, win 0, length 0
+07:10:27.765045 IP _gateway.57624 > sepehr.1234: Flags [S], seq 2222402173, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:27.765080 IP sepehr.1234 > _gateway.57624: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:27.769928 IP _gateway.54392 > sepehr.1234: Flags [S], seq 1354439238, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:27.769942 IP sepehr.1234 > _gateway.54392: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:28.265529 IP _gateway.57624 > sepehr.1234: Flags [S], seq 2222402173, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:28.265562 IP sepehr.1234 > _gateway.57624: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:28.266877 IP _gateway.57625 > sepehr.1234: Flags [S], seq 2327914006, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:28.266899 IP sepehr.1234 > _gateway.57625: Flags [R.], seq 0, ack 2327914007, win 0, length 0
+07:10:28.285569 IP _gateway.54392 > sepehr.1234: Flags [S], seq 1354439238, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:28.285583 IP sepehr.1234 > _gateway.54392: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:28.767838 IP _gateway.57625 > sepehr.1234: Flags [S], seq 2327914006, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:28.767872 IP sepehr.1234 > _gateway.57625: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:28.796595 IP 192.168.1.81.netbios-dgm > 192.168.1.255.netbios-dgm: UDP, length 201
+07:10:28.799831 IP _gateway.54392 > sepehr.1234: Flags [S], seq 1354439238, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:28.799865 IP sepehr.1234 > _gateway.54392: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:28.800955 IP _gateway.54393 > sepehr.1234: Flags [S], seq 3082307405, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:28.800992 IP sepehr.1234 > _gateway.54393: Flags [R.], seq 0, ack 3082307406, win 0, length 0
+07:10:29.268136 IP _gateway.57625 > sepehr.1234: Flags [S], seq 2327914006, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:29.268169 IP sepehr.1234 > _gateway.57625: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:29.269525 IP _gateway.57626 > sepehr.1234: Flags [S], seq 3964014915, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:29.269547 IP sepehr.1234 > _gateway.57626: Flags [R.], seq 0, ack 3964014916, win 0, length 0
+07:10:29.315954 IP _gateway.54393 > sepehr.1234: Flags [S], seq 3082307405, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:29.315985 IP sepehr.1234 > _gateway.54393: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:29.549494 IP sepehr.36867 > pdc.qomstp.local.domain: 22644+ [1au] PTR? 255.1.168.192.in-addr.arpa. (55)
+07:10:29.549771 IP pdc.qomstp.local.domain > sepehr.36867: 22644 NXDomain* 0/1/1 (139)
+07:10:29.549882 IP sepehr.36867 > pdc.qomstp.local.domain: 22644+ PTR? 255.1.168.192.in-addr.arpa. (44)
+07:10:29.550003 IP pdc.qomstp.local.domain > sepehr.36867: 22644 NXDomain* 0/1/0 (128)
+07:10:29.770263 IP _gateway.57626 > sepehr.1234: Flags [S], seq 3964014915, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:29.770300 IP sepehr.1234 > _gateway.57626: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:29.829627 IP _gateway.54393 > sepehr.1234: Flags [S], seq 3082307405, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:29.829653 IP sepehr.1234 > _gateway.54393: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:30.271168 IP _gateway.57626 > sepehr.1234: Flags [S], seq 3964014915, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:30.271205 IP sepehr.1234 > _gateway.57626: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:30.272565 IP _gateway.57627 > sepehr.1234: Flags [S], seq 3329450656, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:30.272580 IP sepehr.1234 > _gateway.57627: Flags [R.], seq 0, ack 3329450657, win 0, length 0
+07:10:30.344601 IP _gateway.54393 > sepehr.1234: Flags [S], seq 3082307405, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:30.344637 IP sepehr.1234 > _gateway.54393: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:30.773326 IP _gateway.57627 > sepehr.1234: Flags [S], seq 3329450656, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:30.773363 IP sepehr.1234 > _gateway.57627: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:30.858948 IP _gateway.54393 > sepehr.1234: Flags [S], seq 3082307405, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:30.858980 IP sepehr.1234 > _gateway.54393: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:30.860028 IP _gateway.54394 > sepehr.1234: Flags [S], seq 2130468676, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:30.860049 IP sepehr.1234 > _gateway.54394: Flags [R.], seq 0, ack 2130468677, win 0, length 0
+07:10:31.274433 IP _gateway.57627 > sepehr.1234: Flags [S], seq 3329450656, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:31.274467 IP sepehr.1234 > _gateway.57627: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:31.275823 IP _gateway.57628 > sepehr.1234: Flags [S], seq 980928387, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:31.275833 IP sepehr.1234 > _gateway.57628: Flags [R.], seq 0, ack 980928388, win 0, length 0
+07:10:31.376577 IP _gateway.54394 > sepehr.1234: Flags [S], seq 2130468676, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:31.376605 IP sepehr.1234 > _gateway.54394: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:31.776630 IP _gateway.57628 > sepehr.1234: Flags [S], seq 980928387, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:31.776667 IP sepehr.1234 > _gateway.57628: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:31.890229 IP _gateway.54394 > sepehr.1234: Flags [S], seq 2130468676, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:31.890269 IP sepehr.1234 > _gateway.54394: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:32.277973 IP _gateway.57628 > sepehr.1234: Flags [S], seq 980928387, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:32.278011 IP sepehr.1234 > _gateway.57628: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:32.279337 IP _gateway.57629 > sepehr.1234: Flags [S], seq 2866741296, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:32.279352 IP sepehr.1234 > _gateway.57629: Flags [R.], seq 0, ack 2866741297, win 0, length 0
+07:10:32.405439 IP _gateway.54394 > sepehr.1234: Flags [S], seq 2130468676, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:32.405476 IP sepehr.1234 > _gateway.54394: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:32.461009 IP sepehr.ssh > _gateway.53000: Flags [FP.], seq 43:1123, ack 1000, win 503, options [nop,nop,TS val 4277092820 ecr 1488769751], length 1080
+07:10:32.780943 IP _gateway.57629 > sepehr.1234: Flags [S], seq 2866741296, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:32.780981 IP sepehr.1234 > _gateway.57629: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:32.919933 IP _gateway.54394 > sepehr.1234: Flags [S], seq 2130468676, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:32.919963 IP sepehr.1234 > _gateway.54394: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:32.921040 IP _gateway.54395 > sepehr.1234: Flags [S], seq 2736397824, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:32.921060 IP sepehr.1234 > _gateway.54395: Flags [R.], seq 0, ack 2736397825, win 0, length 0
+07:10:33.281030 IP _gateway.57629 > sepehr.1234: Flags [S], seq 2866741296, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:33.281058 IP sepehr.1234 > _gateway.57629: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:33.282413 IP _gateway.57630 > sepehr.1234: Flags [S], seq 911693769, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:33.282428 IP sepehr.1234 > _gateway.57630: Flags [R.], seq 0, ack 911693770, win 0, length 0
+07:10:33.436026 IP _gateway.54395 > sepehr.1234: Flags [S], seq 2736397824, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:33.436057 IP sepehr.1234 > _gateway.54395: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:33.783656 IP _gateway.57630 > sepehr.1234: Flags [S], seq 911693769, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:33.783692 IP sepehr.1234 > _gateway.57630: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:33.950298 IP _gateway.54395 > sepehr.1234: Flags [S], seq 2736397824, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:33.950329 IP sepehr.1234 > _gateway.54395: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:34.157827 ARP, Request who-has admin-laptop.qomstp.local tell pdc.qomstp.local, length 46
+07:10:34.252895 ARP, Request who-has sepehr (00:50:56:b3:25:08 (oui Unknown)) tell pdc.qomstp.local, length 46
+07:10:34.252916 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:10:34.284208 IP _gateway.57630 > sepehr.1234: Flags [S], seq 911693769, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:34.284232 IP sepehr.1234 > _gateway.57630: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:34.285568 IP _gateway.57632 > sepehr.1234: Flags [S], seq 275829973, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:34.285581 IP sepehr.1234 > _gateway.57632: Flags [R.], seq 0, ack 275829974, win 0, length 0
+07:10:34.464192 IP _gateway.54395 > sepehr.1234: Flags [S], seq 2736397824, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:34.464229 IP sepehr.1234 > _gateway.54395: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:34.669407 IP sepehr.37258 > pdc.qomstp.local.domain: 12588+ [1au] PTR? 100.1.168.192.in-addr.arpa. (55)
+07:10:34.669707 IP pdc.qomstp.local.domain > sepehr.37258: 12588* 1/0/1 PTR admin-laptop.qomstp.local. (94)
+07:10:34.764991 ARP, Request who-has pdc.qomstp.local tell sepehr, length 28
+07:10:34.765168 ARP, Reply pdc.qomstp.local is-at 00:0c:29:28:bf:5c (oui Unknown), length 46
+07:10:34.786539 IP _gateway.57632 > sepehr.1234: Flags [S], seq 275829973, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:34.786573 IP sepehr.1234 > _gateway.57632: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:34.976601 IP _gateway.54395 > sepehr.1234: Flags [S], seq 2736397824, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:34.976643 IP sepehr.1234 > _gateway.54395: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:34.978039 IP _gateway.54396 > sepehr.1234: Flags [S], seq 561159525, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:34.978052 IP sepehr.1234 > _gateway.54396: Flags [R.], seq 0, ack 561159526, win 0, length 0
+07:10:35.287638 IP _gateway.57632 > sepehr.1234: Flags [S], seq 275829973, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:35.287676 IP sepehr.1234 > _gateway.57632: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:35.289040 IP _gateway.57633 > sepehr.1234: Flags [S], seq 122663180, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:35.289054 IP sepehr.1234 > _gateway.57633: Flags [R.], seq 0, ack 122663181, win 0, length 0
+07:10:35.489727 IP _gateway.54396 > sepehr.1234: Flags [S], seq 561159525, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:35.489758 IP sepehr.1234 > _gateway.54396: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:35.789982 IP _gateway.57633 > sepehr.1234: Flags [S], seq 122663180, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:35.790015 IP sepehr.1234 > _gateway.57633: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:36.001405 IP _gateway.54396 > sepehr.1234: Flags [S], seq 561159525, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:36.001438 IP sepehr.1234 > _gateway.54396: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:36.290768 IP _gateway.57633 > sepehr.1234: Flags [S], seq 122663180, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:36.290799 IP sepehr.1234 > _gateway.57633: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:36.292150 IP _gateway.57635 > sepehr.1234: Flags [S], seq 3436484632, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:36.292164 IP sepehr.1234 > _gateway.57635: Flags [R.], seq 0, ack 3436484633, win 0, length 0
+07:10:36.510842 IP _gateway.54396 > sepehr.1234: Flags [S], seq 561159525, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:36.510873 IP sepehr.1234 > _gateway.54396: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:36.793888 IP _gateway.57635 > sepehr.1234: Flags [S], seq 3436484632, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:36.793919 IP sepehr.1234 > _gateway.57635: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:37.023251 IP _gateway.54396 > sepehr.1234: Flags [S], seq 561159525, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:37.023283 IP sepehr.1234 > _gateway.54396: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:37.024351 IP _gateway.54397 > sepehr.1234: Flags [S], seq 2021643418, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:37.024371 IP sepehr.1234 > _gateway.54397: Flags [R.], seq 0, ack 2021643419, win 0, length 0
+07:10:37.294177 IP _gateway.57635 > sepehr.1234: Flags [S], seq 3436484632, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:37.294214 IP sepehr.1234 > _gateway.57635: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:37.295576 IP _gateway.57636 > sepehr.1234: Flags [S], seq 2328998224, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:37.295594 IP sepehr.1234 > _gateway.57636: Flags [R.], seq 0, ack 2328998225, win 0, length 0
+07:10:37.537894 IP _gateway.54397 > sepehr.1234: Flags [S], seq 2021643418, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:37.537929 IP sepehr.1234 > _gateway.54397: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:37.797346 IP _gateway.57636 > sepehr.1234: Flags [S], seq 2328998224, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:37.797380 IP sepehr.1234 > _gateway.57636: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:37.860276 IP _gateway.42008 > sepehr.ssh: Flags [S], seq 3953992750, win 64240, options [mss 1400,sackOK,TS val 492679672 ecr 0,nop,wscale 7], length 0
+07:10:37.860314 IP sepehr.ssh > _gateway.42008: Flags [S.], seq 779088823, ack 3953992751, win 65160, options [mss 1460,sackOK,TS val 4277098219 ecr 492679672,nop,wscale 7], length 0
+07:10:37.964513 IP _gateway.42008 > sepehr.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 492679777 ecr 4277098219], length 0
+07:10:37.966214 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 1:23, ack 1, win 502, options [nop,nop,TS val 492679779 ecr 4277098219], length 22
+07:10:37.966230 IP sepehr.ssh > _gateway.42008: Flags [.], ack 23, win 509, options [nop,nop,TS val 4277098325 ecr 492679779], length 0
+07:10:37.974671 IP sepehr.ssh > _gateway.42008: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 4277098333 ecr 492679779], length 42
+07:10:38.050547 IP _gateway.54397 > sepehr.1234: Flags [S], seq 2021643418, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:38.050573 IP sepehr.1234 > _gateway.54397: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:38.081875 IP _gateway.42008 > sepehr.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 492679894 ecr 4277098333], length 0
+07:10:38.081897 IP sepehr.ssh > _gateway.42008: Flags [P.], seq 43:1123, ack 23, win 509, options [nop,nop,TS val 4277098440 ecr 492679894], length 1080
+07:10:38.082054 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 23:999, ack 43, win 502, options [nop,nop,TS val 492679894 ecr 4277098333], length 976
+07:10:38.082070 IP sepehr.ssh > _gateway.42008: Flags [.], ack 999, win 502, options [nop,nop,TS val 4277098441 ecr 492679894], length 0
+07:10:38.187108 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 999:1047, ack 1123, win 501, options [nop,nop,TS val 492679999 ecr 4277098333], length 48
+07:10:38.187163 IP sepehr.ssh > _gateway.42008: Flags [.], ack 1047, win 502, options [nop,nop,TS val 4277098546 ecr 492679999], length 0
+07:10:38.198995 IP sepehr.ssh > _gateway.42008: Flags [P.], seq 1123:1559, ack 1047, win 502, options [nop,nop,TS val 4277098558 ecr 492679999], length 436
+07:10:38.297833 IP _gateway.57636 > sepehr.1234: Flags [S], seq 2328998224, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:38.297862 IP sepehr.1234 > _gateway.57636: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:38.299143 IP _gateway.57638 > sepehr.1234: Flags [S], seq 1043703672, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:38.299163 IP sepehr.1234 > _gateway.57638: Flags [R.], seq 0, ack 1043703673, win 0, length 0
+07:10:38.305796 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 1047:1063, ack 1559, win 501, options [nop,nop,TS val 492680118 ecr 4277098558], length 16
+07:10:38.305814 IP sepehr.ssh > _gateway.42008: Flags [.], ack 1063, win 502, options [nop,nop,TS val 4277098664 ecr 492680118], length 0
+07:10:38.412613 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 1063:1115, ack 1559, win 501, options [nop,nop,TS val 492680225 ecr 4277098664], length 52
+07:10:38.412636 IP sepehr.ssh > _gateway.42008: Flags [.], ack 1115, win 502, options [nop,nop,TS val 4277098771 ecr 492680225], length 0
+07:10:38.412719 IP sepehr.ssh > _gateway.42008: Flags [P.], seq 1559:1611, ack 1115, win 502, options [nop,nop,TS val 4277098771 ecr 492680225], length 52
+07:10:38.520274 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 1115:1199, ack 1611, win 501, options [nop,nop,TS val 492680333 ecr 4277098771], length 84
+07:10:38.560999 IP sepehr.ssh > _gateway.42008: Flags [.], ack 1199, win 502, options [nop,nop,TS val 4277098920 ecr 492680333], length 0
+07:10:38.564219 IP _gateway.54397 > sepehr.1234: Flags [S], seq 2021643418, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:38.564250 IP sepehr.1234 > _gateway.54397: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:38.801052 IP _gateway.57638 > sepehr.1234: Flags [S], seq 1043703672, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:38.801081 IP sepehr.1234 > _gateway.57638: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:39.076543 IP _gateway.54397 > sepehr.1234: Flags [S], seq 2021643418, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:39.076574 IP sepehr.1234 > _gateway.54397: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:39.077593 IP _gateway.54398 > sepehr.1234: Flags [S], seq 857692593, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:39.077614 IP sepehr.1234 > _gateway.54398: Flags [R.], seq 0, ack 857692594, win 0, length 0
+07:10:39.302530 IP _gateway.57638 > sepehr.1234: Flags [S], seq 1043703672, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:39.302564 IP sepehr.1234 > _gateway.57638: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:39.303843 IP _gateway.57639 > sepehr.1234: Flags [S], seq 527822402, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:39.303858 IP sepehr.1234 > _gateway.57639: Flags [R.], seq 0, ack 527822403, win 0, length 0
+07:10:39.584216 IP _gateway.54398 > sepehr.1234: Flags [S], seq 857692593, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:39.584248 IP sepehr.1234 > _gateway.54398: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:39.805269 IP _gateway.57639 > sepehr.1234: Flags [S], seq 527822402, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:39.805302 IP sepehr.1234 > _gateway.57639: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:40.099699 IP _gateway.54398 > sepehr.1234: Flags [S], seq 857692593, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:40.099730 IP sepehr.1234 > _gateway.54398: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:40.142454 IP _gateway.5359 > sepehr.ssh: Flags [P.], seq 48:96, ack 209, win 4105, length 48
+07:10:40.142477 IP sepehr.ssh > _gateway.5359: Flags [.], ack 96, win 3074, length 0
+07:10:40.306959 IP _gateway.57639 > sepehr.1234: Flags [S], seq 527822402, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:40.306991 IP sepehr.1234 > _gateway.57639: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:40.308292 IP _gateway.57641 > sepehr.1234: Flags [S], seq 100307440, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:40.308305 IP sepehr.1234 > _gateway.57641: Flags [R.], seq 0, ack 100307441, win 0, length 0
+07:10:40.317035 IP sepehr.ssh > _gateway.42008: Flags [P.], seq 1611:1663, ack 1199, win 502, options [nop,nop,TS val 4277100676 ecr 492680333], length 52
+07:10:40.423691 IP _gateway.42008 > sepehr.ssh: Flags [P.], seq 1199:1251, ack 1663, win 501, options [nop,nop,TS val 492682236 ecr 4277100676], length 52
+07:10:40.423717 IP sepehr.ssh > _gateway.42008: Flags [.], ack 1251, win 502, options [nop,nop,TS val 4277100782 ecr 492682236], length 0
+07:10:40.423742 IP _gateway.42008 > sepehr.ssh: Flags [F.], seq 1251, ack 1663, win 501, options [nop,nop,TS val 492682236 ecr 4277100676], length 0
+07:10:40.424780 IP sepehr.ssh > _gateway.42008: Flags [F.], seq 1663, ack 1252, win 502, options [nop,nop,TS val 4277100783 ecr 492682236], length 0
+07:10:40.530944 IP _gateway.42008 > sepehr.ssh: Flags [.], ack 1664, win 501, options [nop,nop,TS val 492682343 ecr 4277100783], length 0
+07:10:40.611213 IP _gateway.54398 > sepehr.1234: Flags [S], seq 857692593, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:40.611241 IP sepehr.1234 > _gateway.54398: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:40.678507 IP sepehr.34654 > pdc.qomstp.local.domain: 4729+ [1au] A? cdn.fwupd.org. (42)
+07:10:40.678611 IP sepehr.47043 > pdc.qomstp.local.domain: 16713+ [1au] AAAA? cdn.fwupd.org. (42)
+07:10:40.758996 IP pdc.qomstp.local.domain > sepehr.47043: 16713 2/0/1 CNAME dualstack.p2.shared.global.fastly.net., AAAA 2a04:4e42:8e::561 (121)
+07:10:40.762176 IP pdc.qomstp.local.domain > sepehr.34654: 4729 2/0/1 CNAME dualstack.p2.shared.global.fastly.net., A 146.75.118.49 (109)
+07:10:40.762726 IP sepehr.60922 > 146.75.118.49.https: Flags [S], seq 581572115, win 64240, options [mss 1460,sackOK,TS val 640842029 ecr 0,nop,wscale 7], length 0
+07:10:40.808808 IP _gateway.57641 > sepehr.1234: Flags [S], seq 100307440, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:40.808829 IP sepehr.1234 > _gateway.57641: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:40.813678 IP sepehr.33635 > pdc.qomstp.local.domain: 1015+ [1au] PTR? 49.118.75.146.in-addr.arpa. (55)
+07:10:40.853560 IP 146.75.118.49.https > sepehr.60922: Flags [S.], seq 3707016067, ack 581572116, win 65535, options [mss 1400,sackOK,TS val 212455092 ecr 640842029,nop,wscale 9], length 0
+07:10:40.853589 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 640842120 ecr 212455092], length 0
+07:10:40.894307 IP pdc.qomstp.local.domain > sepehr.33635: 1015 NXDomain 0/1/1 (109)
+07:10:40.894470 IP sepehr.33635 > pdc.qomstp.local.domain: 1015+ PTR? 49.118.75.146.in-addr.arpa. (44)
+07:10:40.894592 IP pdc.qomstp.local.domain > sepehr.33635: 1015 NXDomain 0/1/0 (98)
+07:10:40.930432 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 1:371, ack 1, win 502, options [nop,nop,TS val 640842197 ecr 212455092], length 370
+07:10:41.020676 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 371, win 285, options [nop,nop,TS val 212455259 ecr 640842197], length 0
+07:10:41.023114 IP 146.75.118.49.https > sepehr.60922: Flags [.], seq 1:1389, ack 371, win 285, options [nop,nop,TS val 212455260 ecr 640842197], length 1388
+07:10:41.023129 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 1389, win 501, options [nop,nop,TS val 640842290 ecr 212455260], length 0
+07:10:41.023222 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 1389:2777, ack 371, win 285, options [nop,nop,TS val 212455260 ecr 640842197], length 1388
+07:10:41.023229 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 2777, win 496, options [nop,nop,TS val 640842290 ecr 212455260], length 0
+07:10:41.023332 IP 146.75.118.49.https > sepehr.60922: Flags [.], seq 2777:4165, ack 371, win 285, options [nop,nop,TS val 212455260 ecr 640842197], length 1388
+07:10:41.023335 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 4165, win 501, options [nop,nop,TS val 640842290 ecr 212455260], length 0
+07:10:41.023368 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 4165:4727, ack 371, win 285, options [nop,nop,TS val 212455260 ecr 640842197], length 562
+07:10:41.023371 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 4727, win 497, options [nop,nop,TS val 640842290 ecr 212455260], length 0
+07:10:41.024835 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 371:413, ack 4727, win 501, options [nop,nop,TS val 640842291 ecr 212455260], length 42
+07:10:41.024872 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 413:419, ack 4727, win 501, options [nop,nop,TS val 640842291 ecr 212455260], length 6
+07:10:41.024891 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 419:456, ack 4727, win 501, options [nop,nop,TS val 640842291 ecr 212455260], length 37
+07:10:41.113294 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 413, win 285, options [nop,nop,TS val 212455351 ecr 640842291], length 0
+07:10:41.113314 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 419, win 285, options [nop,nop,TS val 212455351 ecr 640842291], length 0
+07:10:41.113317 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 456, win 285, options [nop,nop,TS val 212455351 ecr 640842291], length 0
+07:10:41.113684 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 4727:4770, ack 456, win 285, options [nop,nop,TS val 212455352 ecr 640842291], length 43
+07:10:41.113697 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 4770, win 501, options [nop,nop,TS val 640842380 ecr 212455352], length 0
+07:10:41.116309 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 456:501, ack 4770, win 501, options [nop,nop,TS val 640842383 ecr 212455352], length 45
+07:10:41.116360 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 501:549, ack 4770, win 501, options [nop,nop,TS val 640842383 ecr 212455352], length 48
+07:10:41.116385 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 549:583, ack 4770, win 501, options [nop,nop,TS val 640842383 ecr 212455352], length 34
+07:10:41.116468 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 583:720, ack 4770, win 501, options [nop,nop,TS val 640842383 ecr 212455352], length 137
+07:10:41.125231 IP _gateway.54398 > sepehr.1234: Flags [S], seq 857692593, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:41.125249 IP sepehr.1234 > _gateway.54398: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:41.126369 IP _gateway.54399 > sepehr.1234: Flags [S], seq 4066588516, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:41.126389 IP sepehr.1234 > _gateway.54399: Flags [R.], seq 0, ack 4066588517, win 0, length 0
+07:10:41.204434 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 501, win 285, options [nop,nop,TS val 212455443 ecr 640842383], length 0
+07:10:41.204481 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 549, win 285, options [nop,nop,TS val 212455443 ecr 640842383], length 0
+07:10:41.204485 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 720, win 287, options [nop,nop,TS val 212455443 ecr 640842383], length 0
+07:10:41.204489 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 4770:4834, ack 720, win 287, options [nop,nop,TS val 212455443 ecr 640842383], length 64
+07:10:41.204500 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 4834, win 501, options [nop,nop,TS val 640842471 ecr 212455443], length 0
+07:10:41.204661 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 720:750, ack 4834, win 501, options [nop,nop,TS val 640842471 ecr 212455443], length 30
+07:10:41.205072 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 4834:5048, ack 720, win 287, options [nop,nop,TS val 212455443 ecr 640842383], length 214
+07:10:41.205285 IP 146.75.118.49.https > sepehr.60922: Flags [.], seq 5048:6436, ack 720, win 287, options [nop,nop,TS val 212455443 ecr 640842383], length 1388
+07:10:41.205290 IP sepehr.60922 > 146.75.118.49.https: Flags [.], ack 6436, win 501, options [nop,nop,TS val 640842472 ecr 212455443], length 0
+07:10:41.205358 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 6436:7331, ack 720, win 287, options [nop,nop,TS val 212455443 ecr 640842383], length 895
+07:10:41.206792 IP sepehr.60922 > 146.75.118.49.https: Flags [P.], seq 750:773, ack 7331, win 501, options [nop,nop,TS val 640842473 ecr 212455443], length 23
+07:10:41.212136 IP sepehr.60922 > 146.75.118.49.https: Flags [F.], seq 773, ack 7331, win 501, options [nop,nop,TS val 640842479 ecr 212455443], length 0
+07:10:41.294301 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 750, win 287, options [nop,nop,TS val 212455532 ecr 640842471], length 0
+07:10:41.294321 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 773, win 287, options [nop,nop,TS val 212455533 ecr 640842473], length 0
+07:10:41.299750 IP 146.75.118.49.https > sepehr.60922: Flags [.], ack 774, win 287, options [nop,nop,TS val 212455538 ecr 640842479], length 0
+07:10:41.299874 IP 146.75.118.49.https > sepehr.60922: Flags [P.], seq 7331:7354, ack 774, win 287, options [nop,nop,TS val 212455538 ecr 640842479], length 23
+07:10:41.299895 IP sepehr.60922 > 146.75.118.49.https: Flags [R], seq 581572889, win 0, length 0
+07:10:41.299910 IP 146.75.118.49.https > sepehr.60922: Flags [F.], seq 7354, ack 774, win 287, options [nop,nop,TS val 212455538 ecr 640842479], length 0
+07:10:41.299914 IP sepehr.60922 > 146.75.118.49.https: Flags [R], seq 581572889, win 0, length 0
+07:10:41.308877 IP _gateway.57641 > sepehr.1234: Flags [S], seq 100307440, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:41.308890 IP sepehr.1234 > _gateway.57641: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:41.310305 IP _gateway.57642 > sepehr.1234: Flags [S], seq 3833326935, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:41.310325 IP sepehr.1234 > _gateway.57642: Flags [R.], seq 0, ack 3833326936, win 0, length 0
+07:10:41.640148 IP _gateway.54399 > sepehr.1234: Flags [S], seq 4066588516, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:41.640180 IP sepehr.1234 > _gateway.54399: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:41.811131 IP _gateway.57642 > sepehr.1234: Flags [S], seq 3833326935, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:41.811164 IP sepehr.1234 > _gateway.57642: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:42.153220 IP _gateway.54399 > sepehr.1234: Flags [S], seq 4066588516, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:42.153260 IP sepehr.1234 > _gateway.54399: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:42.312460 IP _gateway.57642 > sepehr.1234: Flags [S], seq 3833326935, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:42.312493 IP sepehr.1234 > _gateway.57642: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:42.313892 IP _gateway.57643 > sepehr.1234: Flags [S], seq 3386073330, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:42.313912 IP sepehr.1234 > _gateway.57643: Flags [R.], seq 0, ack 3386073331, win 0, length 0
+07:10:42.664197 IP _gateway.54399 > sepehr.1234: Flags [S], seq 4066588516, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:42.664238 IP sepehr.1234 > _gateway.54399: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:42.816422 IP _gateway.57643 > sepehr.1234: Flags [S], seq 3386073330, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:42.816451 IP sepehr.1234 > _gateway.57643: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:43.172853 IP _gateway.54399 > sepehr.1234: Flags [S], seq 4066588516, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:43.172893 IP sepehr.1234 > _gateway.54399: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:43.173880 IP _gateway.54400 > sepehr.1234: Flags [S], seq 865730629, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:43.173894 IP sepehr.1234 > _gateway.54400: Flags [R.], seq 0, ack 865730630, win 0, length 0
+07:10:43.318280 IP _gateway.57643 > sepehr.1234: Flags [S], seq 3386073330, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:43.318311 IP sepehr.1234 > _gateway.57643: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:43.319687 IP _gateway.57644 > sepehr.1234: Flags [S], seq 1661131336, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:43.319697 IP sepehr.1234 > _gateway.57644: Flags [R.], seq 0, ack 1661131337, win 0, length 0
+07:10:43.701435 IP _gateway.54400 > sepehr.1234: Flags [S], seq 865730629, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:43.701466 IP sepehr.1234 > _gateway.54400: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:43.820441 IP _gateway.57644 > sepehr.1234: Flags [S], seq 1661131336, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:43.820470 IP sepehr.1234 > _gateway.57644: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:44.212914 IP _gateway.54400 > sepehr.1234: Flags [S], seq 865730629, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:44.212963 IP sepehr.1234 > _gateway.54400: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:44.322369 IP _gateway.57644 > sepehr.1234: Flags [S], seq 1661131336, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:44.322399 IP sepehr.1234 > _gateway.57644: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:44.323753 IP _gateway.57645 > sepehr.1234: Flags [S], seq 1062060824, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:44.323773 IP sepehr.1234 > _gateway.57645: Flags [R.], seq 0, ack 1062060825, win 0, length 0
+07:10:44.723033 IP _gateway.54400 > sepehr.1234: Flags [S], seq 865730629, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:44.723065 IP sepehr.1234 > _gateway.54400: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:44.825250 IP _gateway.57645 > sepehr.1234: Flags [S], seq 1062060824, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:44.825280 IP sepehr.1234 > _gateway.57645: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:44.837173 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:45.138123 ARP, Request who-has sepehr tell _gateway, length 46
+07:10:45.138149 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:10:45.234190 IP _gateway.54400 > sepehr.1234: Flags [S], seq 865730629, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:45.234229 IP sepehr.1234 > _gateway.54400: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:45.235756 IP _gateway.54401 > sepehr.1234: Flags [S], seq 1250735459, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:45.235770 IP sepehr.1234 > _gateway.54401: Flags [R.], seq 0, ack 1250735460, win 0, length 0
+07:10:45.326580 IP _gateway.57645 > sepehr.1234: Flags [S], seq 1062060824, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:45.326603 IP sepehr.1234 > _gateway.57645: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:45.327972 IP _gateway.57646 > sepehr.1234: Flags [S], seq 2348286113, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:45.327985 IP sepehr.1234 > _gateway.57646: Flags [R.], seq 0, ack 2348286114, win 0, length 0
+07:10:45.586674 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:45.747785 IP _gateway.54401 > sepehr.1234: Flags [S], seq 1250735459, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:45.747823 IP sepehr.1234 > _gateway.54401: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:45.829822 IP _gateway.57646 > sepehr.1234: Flags [S], seq 2348286113, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:45.829877 IP sepehr.1234 > _gateway.57646: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:46.258847 IP _gateway.54401 > sepehr.1234: Flags [S], seq 1250735459, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:46.258880 IP sepehr.1234 > _gateway.54401: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:46.330251 IP _gateway.57646 > sepehr.1234: Flags [S], seq 2348286113, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:46.330266 IP sepehr.1234 > _gateway.57646: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:46.331633 IP _gateway.57647 > sepehr.1234: Flags [S], seq 2095046555, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:46.331647 IP sepehr.1234 > _gateway.57647: Flags [R.], seq 0, ack 2095046556, win 0, length 0
+07:10:46.336612 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:46.342884 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:46.770821 IP _gateway.54401 > sepehr.1234: Flags [S], seq 1250735459, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:46.770854 IP sepehr.1234 > _gateway.54401: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:46.832492 IP _gateway.57647 > sepehr.1234: Flags [S], seq 2095046555, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:46.832523 IP sepehr.1234 > _gateway.57647: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:46.957538 IP sepehr.52349 > pdc.qomstp.local.domain: 5185+ [1au] PTR? 5.1.168.192.in-addr.arpa. (53)
+07:10:46.957798 IP pdc.qomstp.local.domain > sepehr.52349: 5185 NXDomain* 0/1/1 (137)
+07:10:46.957881 IP sepehr.52349 > pdc.qomstp.local.domain: 5185+ PTR? 5.1.168.192.in-addr.arpa. (42)
+07:10:46.958054 IP pdc.qomstp.local.domain > sepehr.52349: 5185 NXDomain* 0/1/0 (126)
+07:10:47.092705 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:47.283101 IP _gateway.54401 > sepehr.1234: Flags [S], seq 1250735459, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:47.283133 IP sepehr.1234 > _gateway.54401: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:47.283946 IP _gateway.54402 > sepehr.1234: Flags [S], seq 3610998619, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:47.283966 IP sepehr.1234 > _gateway.54402: Flags [R.], seq 0, ack 3610998620, win 0, length 0
+07:10:47.332765 IP _gateway.57647 > sepehr.1234: Flags [S], seq 2095046555, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:47.332784 IP sepehr.1234 > _gateway.57647: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:47.334129 IP _gateway.57648 > sepehr.1234: Flags [S], seq 3921947195, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:47.334143 IP sepehr.1234 > _gateway.57648: Flags [R.], seq 0, ack 3921947196, win 0, length 0
+07:10:47.792934 IP _gateway.54402 > sepehr.1234: Flags [S], seq 3610998619, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:47.792966 IP sepehr.1234 > _gateway.54402: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:47.835021 IP _gateway.57648 > sepehr.1234: Flags [S], seq 3921947195, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:47.835054 IP sepehr.1234 > _gateway.57648: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:47.843561 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:47.962967 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:48.301193 IP _gateway.54402 > sepehr.1234: Flags [S], seq 3610998619, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:48.301223 IP sepehr.1234 > _gateway.54402: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:48.333010 IP sepehr.ssh > _gateway.53000: Flags [FP.], seq 43:1123, ack 1000, win 503, options [nop,nop,TS val 4277108692 ecr 1488769751], length 1080
+07:10:48.336987 IP _gateway.57648 > sepehr.1234: Flags [S], seq 3921947195, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:48.337006 IP sepehr.1234 > _gateway.57648: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:48.338439 IP _gateway.57649 > sepehr.1234: Flags [S], seq 844624798, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:48.338451 IP sepehr.1234 > _gateway.57649: Flags [R.], seq 0, ack 844624799, win 0, length 0
+07:10:48.664016 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:48.712675 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:48.815753 IP _gateway.54402 > sepehr.1234: Flags [S], seq 3610998619, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:48.815797 IP sepehr.1234 > _gateway.54402: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:48.839116 IP _gateway.57649 > sepehr.1234: Flags [S], seq 844624798, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:48.839139 IP sepehr.1234 > _gateway.57649: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:49.325493 IP _gateway.54402 > sepehr.1234: Flags [S], seq 3610998619, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:49.325536 IP sepehr.1234 > _gateway.54402: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:49.326508 IP _gateway.54403 > sepehr.1234: Flags [S], seq 1090653244, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:49.326523 IP sepehr.1234 > _gateway.54403: Flags [R.], seq 0, ack 1090653245, win 0, length 0
+07:10:49.340415 IP _gateway.57649 > sepehr.1234: Flags [S], seq 844624798, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:49.340429 IP sepehr.1234 > _gateway.57649: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:49.341881 IP _gateway.57650 > sepehr.1234: Flags [S], seq 118153959, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:49.341898 IP sepehr.1234 > _gateway.57650: Flags [R.], seq 0, ack 118153960, win 0, length 0
+07:10:49.413584 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:49.462716 IP pdc.qomstp.local.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:49.839582 IP _gateway.54403 > sepehr.1234: Flags [S], seq 1090653244, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:49.839620 IP sepehr.1234 > _gateway.54403: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:49.843336 IP _gateway.57650 > sepehr.1234: Flags [S], seq 118153959, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:49.843352 IP sepehr.1234 > _gateway.57650: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:50.163568 IP 192.168.1.5.netbios-ns > 192.168.1.255.netbios-ns: UDP, length 50
+07:10:50.344217 IP _gateway.57650 > sepehr.1234: Flags [S], seq 118153959, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:50.344257 IP sepehr.1234 > _gateway.57650: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:50.345621 IP _gateway.57652 > sepehr.1234: Flags [S], seq 3324656743, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:50.345642 IP sepehr.1234 > _gateway.57652: Flags [R.], seq 0, ack 3324656744, win 0, length 0
+07:10:50.352454 IP _gateway.54403 > sepehr.1234: Flags [S], seq 1090653244, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:50.352472 IP sepehr.1234 > _gateway.54403: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:50.846284 IP _gateway.57652 > sepehr.1234: Flags [S], seq 3324656743, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:50.846318 IP sepehr.1234 > _gateway.57652: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:50.861987 IP _gateway.54403 > sepehr.1234: Flags [S], seq 1090653244, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:50.862002 IP sepehr.1234 > _gateway.54403: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:51.347379 IP _gateway.57652 > sepehr.1234: Flags [S], seq 3324656743, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:51.347418 IP sepehr.1234 > _gateway.57652: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:51.348707 IP _gateway.57653 > sepehr.1234: Flags [S], seq 64968238, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:51.348721 IP sepehr.1234 > _gateway.57653: Flags [R.], seq 0, ack 64968239, win 0, length 0
+07:10:51.375046 IP _gateway.54403 > sepehr.1234: Flags [S], seq 1090653244, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:51.375065 IP sepehr.1234 > _gateway.54403: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:51.376022 IP _gateway.54404 > sepehr.1234: Flags [S], seq 3185240332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:51.376039 IP sepehr.1234 > _gateway.54404: Flags [R.], seq 0, ack 3185240333, win 0, length 0
+07:10:51.849438 IP _gateway.57653 > sepehr.1234: Flags [S], seq 64968238, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:51.849469 IP sepehr.1234 > _gateway.57653: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:51.885299 IP _gateway.54404 > sepehr.1234: Flags [S], seq 3185240332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:51.885326 IP sepehr.1234 > _gateway.54404: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:52.351071 IP _gateway.57653 > sepehr.1234: Flags [S], seq 64968238, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:52.351121 IP sepehr.1234 > _gateway.57653: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:52.352415 IP _gateway.57655 > sepehr.1234: Flags [S], seq 1820398601, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:52.352431 IP sepehr.1234 > _gateway.57655: Flags [R.], seq 0, ack 1820398602, win 0, length 0
+07:10:52.397059 IP _gateway.54404 > sepehr.1234: Flags [S], seq 3185240332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:52.397085 IP sepehr.1234 > _gateway.54404: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:52.853268 IP _gateway.57655 > sepehr.1234: Flags [S], seq 1820398601, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:52.853302 IP sepehr.1234 > _gateway.57655: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:52.922182 IP _gateway.54404 > sepehr.1234: Flags [S], seq 3185240332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:52.922223 IP sepehr.1234 > _gateway.54404: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:53.354376 IP _gateway.57655 > sepehr.1234: Flags [S], seq 1820398601, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:53.354409 IP sepehr.1234 > _gateway.57655: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:53.355692 IP _gateway.57656 > sepehr.1234: Flags [S], seq 2633453940, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:53.355712 IP sepehr.1234 > _gateway.57656: Flags [R.], seq 0, ack 2633453941, win 0, length 0
+07:10:53.434539 IP _gateway.54404 > sepehr.1234: Flags [S], seq 3185240332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:53.434575 IP sepehr.1234 > _gateway.54404: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:53.435671 IP _gateway.54405 > sepehr.1234: Flags [S], seq 3770300705, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:53.435685 IP sepehr.1234 > _gateway.54405: Flags [R.], seq 0, ack 3770300706, win 0, length 0
+07:10:53.855809 IP _gateway.57656 > sepehr.1234: Flags [S], seq 2633453940, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:53.855848 IP sepehr.1234 > _gateway.57656: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:53.949201 IP _gateway.54405 > sepehr.1234: Flags [S], seq 3770300705, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:53.949291 IP sepehr.1234 > _gateway.54405: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:54.357231 IP _gateway.57656 > sepehr.1234: Flags [S], seq 2633453940, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:54.357273 IP sepehr.1234 > _gateway.57656: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:54.358584 IP _gateway.57658 > sepehr.1234: Flags [S], seq 3017779649, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:54.358597 IP sepehr.1234 > _gateway.57658: Flags [R.], seq 0, ack 3017779650, win 0, length 0
+07:10:54.449676 IP _gateway.54405 > sepehr.1234: Flags [S], seq 3770300705, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:54.449703 IP sepehr.1234 > _gateway.54405: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:54.859168 IP _gateway.57658 > sepehr.1234: Flags [S], seq 3017779649, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:54.859197 IP sepehr.1234 > _gateway.57658: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:54.964213 IP _gateway.54405 > sepehr.1234: Flags [S], seq 3770300705, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:54.964248 IP sepehr.1234 > _gateway.54405: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:55.369676 IP _gateway.57658 > sepehr.1234: Flags [S], seq 3017779649, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:55.369715 IP sepehr.1234 > _gateway.57658: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:55.370907 IP _gateway.57659 > sepehr.1234: Flags [S], seq 171610999, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:55.370927 IP sepehr.1234 > _gateway.57659: Flags [R.], seq 0, ack 171611000, win 0, length 0
+07:10:55.479306 IP _gateway.54405 > sepehr.1234: Flags [S], seq 3770300705, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:55.479342 IP sepehr.1234 > _gateway.54405: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:55.480620 IP _gateway.54406 > sepehr.1234: Flags [S], seq 1051775834, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:55.480635 IP sepehr.1234 > _gateway.54406: Flags [R.], seq 0, ack 1051775835, win 0, length 0
+07:10:55.871806 IP _gateway.57659 > sepehr.1234: Flags [S], seq 171610999, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:55.871842 IP sepehr.1234 > _gateway.57659: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:55.994131 IP _gateway.54406 > sepehr.1234: Flags [S], seq 1051775834, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:55.994165 IP sepehr.1234 > _gateway.54406: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:56.373379 IP _gateway.57659 > sepehr.1234: Flags [S], seq 171610999, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:56.373413 IP sepehr.1234 > _gateway.57659: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:56.374747 IP _gateway.57661 > sepehr.1234: Flags [S], seq 125032024, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:56.374761 IP sepehr.1234 > _gateway.57661: Flags [R.], seq 0, ack 125032025, win 0, length 0
+07:10:56.494164 IP _gateway.54406 > sepehr.1234: Flags [S], seq 1051775834, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:56.494203 IP sepehr.1234 > _gateway.54406: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:56.877015 IP _gateway.57661 > sepehr.1234: Flags [S], seq 125032024, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:56.877055 IP sepehr.1234 > _gateway.57661: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:57.007755 IP _gateway.54406 > sepehr.1234: Flags [S], seq 1051775834, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:57.007788 IP sepehr.1234 > _gateway.54406: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:57.379215 IP _gateway.57661 > sepehr.1234: Flags [S], seq 125032024, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:57.379249 IP sepehr.1234 > _gateway.57661: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:57.380620 IP _gateway.57662 > sepehr.1234: Flags [S], seq 1523951686, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:57.380642 IP sepehr.1234 > _gateway.57662: Flags [R.], seq 0, ack 1523951687, win 0, length 0
+07:10:57.522637 IP _gateway.54406 > sepehr.1234: Flags [S], seq 1051775834, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:57.522672 IP sepehr.1234 > _gateway.54406: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:57.523715 IP _gateway.54407 > sepehr.1234: Flags [S], seq 2106282282, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:57.523738 IP sepehr.1234 > _gateway.54407: Flags [R.], seq 0, ack 2106282283, win 0, length 0
+07:10:57.881525 IP _gateway.57662 > sepehr.1234: Flags [S], seq 1523951686, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:57.881562 IP sepehr.1234 > _gateway.57662: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:58.038008 IP _gateway.54407 > sepehr.1234: Flags [S], seq 2106282282, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:58.038046 IP sepehr.1234 > _gateway.54407: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:58.382088 IP _gateway.57662 > sepehr.1234: Flags [S], seq 1523951686, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:58.382115 IP sepehr.1234 > _gateway.57662: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:58.383480 IP _gateway.57663 > sepehr.1234: Flags [S], seq 1341947486, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:58.383494 IP sepehr.1234 > _gateway.57663: Flags [R.], seq 0, ack 1341947487, win 0, length 0
+07:10:58.552544 IP _gateway.54407 > sepehr.1234: Flags [S], seq 2106282282, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:58.552575 IP sepehr.1234 > _gateway.54407: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:58.884290 IP _gateway.57663 > sepehr.1234: Flags [S], seq 1341947486, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:58.884323 IP sepehr.1234 > _gateway.57663: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:59.065564 IP _gateway.54407 > sepehr.1234: Flags [S], seq 2106282282, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:59.065596 IP sepehr.1234 > _gateway.54407: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:59.385117 IP _gateway.57663 > sepehr.1234: Flags [S], seq 1341947486, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:10:59.385147 IP sepehr.1234 > _gateway.57663: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:59.386494 IP _gateway.57664 > sepehr.1234: Flags [S], seq 758357038, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:59.386508 IP sepehr.1234 > _gateway.57664: Flags [R.], seq 0, ack 758357039, win 0, length 0
+07:10:59.579401 IP _gateway.54407 > sepehr.1234: Flags [S], seq 2106282282, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:59.579432 IP sepehr.1234 > _gateway.54407: Flags [R.], seq 0, ack 1, win 0, length 0
+07:10:59.580575 IP _gateway.54408 > sepehr.1234: Flags [S], seq 3655198876, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:59.580594 IP sepehr.1234 > _gateway.54408: Flags [R.], seq 0, ack 3655198877, win 0, length 0
+07:10:59.887703 IP _gateway.57664 > sepehr.1234: Flags [S], seq 758357038, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:10:59.887741 IP sepehr.1234 > _gateway.57664: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:00.043186 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:00.094161 IP _gateway.54408 > sepehr.1234: Flags [S], seq 3655198876, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:00.094199 IP sepehr.1234 > _gateway.54408: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:00.388459 IP _gateway.57664 > sepehr.1234: Flags [S], seq 758357038, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:00.388485 IP sepehr.1234 > _gateway.57664: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:00.389883 IP _gateway.57665 > sepehr.1234: Flags [S], seq 3148090194, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:00.389897 IP sepehr.1234 > _gateway.57665: Flags [R.], seq 0, ack 3148090195, win 0, length 0
+07:11:00.607067 IP _gateway.54408 > sepehr.1234: Flags [S], seq 3655198876, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:00.607099 IP sepehr.1234 > _gateway.54408: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:00.890651 IP _gateway.57665 > sepehr.1234: Flags [S], seq 3148090194, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:00.890681 IP sepehr.1234 > _gateway.57665: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:00.923681 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:01.107666 IP _gateway.54408 > sepehr.1234: Flags [S], seq 3655198876, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:01.107697 IP sepehr.1234 > _gateway.54408: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:01.392524 IP _gateway.57665 > sepehr.1234: Flags [S], seq 3148090194, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:01.392553 IP sepehr.1234 > _gateway.57665: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:01.393902 IP _gateway.57666 > sepehr.1234: Flags [S], seq 303998143, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:01.393922 IP sepehr.1234 > _gateway.57666: Flags [R.], seq 0, ack 303998144, win 0, length 0
+07:11:01.609623 IP _gateway.54408 > sepehr.1234: Flags [S], seq 3655198876, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:01.609662 IP sepehr.1234 > _gateway.54408: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:01.610309 IP _gateway.54409 > sepehr.1234: Flags [S], seq 524631161, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:01.610324 IP sepehr.1234 > _gateway.54409: Flags [R.], seq 0, ack 524631162, win 0, length 0
+07:11:01.895257 IP _gateway.57666 > sepehr.1234: Flags [S], seq 303998143, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:01.895290 IP sepehr.1234 > _gateway.57666: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:01.922112 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:02.120243 IP _gateway.54409 > sepehr.1234: Flags [S], seq 524631161, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:02.120276 IP sepehr.1234 > _gateway.54409: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:02.395980 IP _gateway.57666 > sepehr.1234: Flags [S], seq 303998143, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:02.396012 IP sepehr.1234 > _gateway.57666: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:02.397420 IP _gateway.57667 > sepehr.1234: Flags [S], seq 528392991, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:02.397441 IP sepehr.1234 > _gateway.57667: Flags [R.], seq 0, ack 528392992, win 0, length 0
+07:11:02.639941 IP _gateway.54409 > sepehr.1234: Flags [S], seq 524631161, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:02.639979 IP sepehr.1234 > _gateway.54409: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:02.898129 IP _gateway.57667 > sepehr.1234: Flags [S], seq 528392991, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:02.898157 IP sepehr.1234 > _gateway.57667: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:03.045395 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:03.153319 IP _gateway.54409 > sepehr.1234: Flags [S], seq 524631161, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:03.153350 IP sepehr.1234 > _gateway.54409: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:03.399227 IP _gateway.57667 > sepehr.1234: Flags [S], seq 528392991, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:03.399263 IP sepehr.1234 > _gateway.57667: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:03.400605 IP _gateway.57668 > sepehr.1234: Flags [S], seq 2604643686, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:03.400618 IP sepehr.1234 > _gateway.57668: Flags [R.], seq 0, ack 2604643687, win 0, length 0
+07:11:03.667914 IP _gateway.54409 > sepehr.1234: Flags [S], seq 524631161, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:03.667948 IP sepehr.1234 > _gateway.54409: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:03.669097 IP _gateway.54410 > sepehr.1234: Flags [S], seq 4142707007, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:03.669111 IP sepehr.1234 > _gateway.54410: Flags [R.], seq 0, ack 4142707008, win 0, length 0
+07:11:03.902011 IP _gateway.57668 > sepehr.1234: Flags [S], seq 2604643686, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:03.902046 IP sepehr.1234 > _gateway.57668: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:03.918960 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:04.182780 IP _gateway.54410 > sepehr.1234: Flags [S], seq 4142707007, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:04.182821 IP sepehr.1234 > _gateway.54410: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:04.402845 IP _gateway.57668 > sepehr.1234: Flags [S], seq 2604643686, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:04.402879 IP sepehr.1234 > _gateway.57668: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:04.404202 IP _gateway.57669 > sepehr.1234: Flags [S], seq 3618676112, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:04.404223 IP sepehr.1234 > _gateway.57669: Flags [R.], seq 0, ack 3618676113, win 0, length 0
+07:11:04.696211 IP _gateway.54410 > sepehr.1234: Flags [S], seq 4142707007, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:04.696246 IP sepehr.1234 > _gateway.54410: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:04.905898 IP _gateway.57669 > sepehr.1234: Flags [S], seq 3618676112, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:04.905933 IP sepehr.1234 > _gateway.57669: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:04.932900 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:05.197216 IP _gateway.54410 > sepehr.1234: Flags [S], seq 4142707007, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:05.197246 IP sepehr.1234 > _gateway.54410: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:05.406689 IP _gateway.57669 > sepehr.1234: Flags [S], seq 3618676112, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:05.406719 IP sepehr.1234 > _gateway.57669: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:05.408070 IP _gateway.57670 > sepehr.1234: Flags [S], seq 4283618841, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:05.408082 IP sepehr.1234 > _gateway.57670: Flags [R.], seq 0, ack 4283618842, win 0, length 0
+07:11:05.700170 IP _gateway.54410 > sepehr.1234: Flags [S], seq 4142707007, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:05.700201 IP sepehr.1234 > _gateway.54410: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:05.701237 IP _gateway.54411 > sepehr.1234: Flags [S], seq 44865034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:05.701250 IP sepehr.1234 > _gateway.54411: Flags [R.], seq 0, ack 44865035, win 0, length 0
+07:11:05.908792 IP _gateway.57670 > sepehr.1234: Flags [S], seq 4283618841, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:05.908824 IP sepehr.1234 > _gateway.57670: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:06.213905 IP _gateway.54411 > sepehr.1234: Flags [S], seq 44865034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:06.213939 IP sepehr.1234 > _gateway.54411: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:06.409468 IP _gateway.57670 > sepehr.1234: Flags [S], seq 4283618841, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:06.409504 IP sepehr.1234 > _gateway.57670: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:06.410855 IP _gateway.57671 > sepehr.1234: Flags [S], seq 2293324727, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:06.410876 IP sepehr.1234 > _gateway.57671: Flags [R.], seq 0, ack 2293324728, win 0, length 0
+07:11:06.727747 IP _gateway.54411 > sepehr.1234: Flags [S], seq 44865034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:06.727777 IP sepehr.1234 > _gateway.54411: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:06.911825 IP _gateway.57671 > sepehr.1234: Flags [S], seq 2293324727, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:06.911863 IP sepehr.1234 > _gateway.57671: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:07.238987 IP _gateway.54411 > sepehr.1234: Flags [S], seq 44865034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:07.239018 IP sepehr.1234 > _gateway.54411: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:07.412947 IP _gateway.57671 > sepehr.1234: Flags [S], seq 2293324727, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:07.413003 IP sepehr.1234 > _gateway.57671: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:07.414259 IP _gateway.57672 > sepehr.1234: Flags [S], seq 4144680582, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:07.414272 IP sepehr.1234 > _gateway.57672: Flags [R.], seq 0, ack 4144680583, win 0, length 0
+07:11:07.751011 IP _gateway.54411 > sepehr.1234: Flags [S], seq 44865034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:07.751040 IP sepehr.1234 > _gateway.54411: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:07.752206 IP _gateway.54412 > sepehr.1234: Flags [S], seq 1779197956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:07.752217 IP sepehr.1234 > _gateway.54412: Flags [R.], seq 0, ack 1779197957, win 0, length 0
+07:11:07.915332 IP _gateway.57672 > sepehr.1234: Flags [S], seq 4144680582, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:07.915371 IP sepehr.1234 > _gateway.57672: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:08.266813 IP _gateway.54412 > sepehr.1234: Flags [S], seq 1779197956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:08.266849 IP sepehr.1234 > _gateway.54412: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:08.416390 IP _gateway.57672 > sepehr.1234: Flags [S], seq 4144680582, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:08.416423 IP sepehr.1234 > _gateway.57672: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:08.417763 IP _gateway.57673 > sepehr.1234: Flags [S], seq 3231609510, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:08.417776 IP sepehr.1234 > _gateway.57673: Flags [R.], seq 0, ack 3231609511, win 0, length 0
+07:11:08.781433 IP _gateway.54412 > sepehr.1234: Flags [S], seq 1779197956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:08.781469 IP sepehr.1234 > _gateway.54412: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:08.918492 IP _gateway.57673 > sepehr.1234: Flags [S], seq 3231609510, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:08.918524 IP sepehr.1234 > _gateway.57673: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:09.051583 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:09.133804 IP _gateway.38842 > sepehr.ssh: Flags [S], seq 2662016057, win 4380, options [mss 1400,sackOK,TS val 110977196 ecr 0,nop,wscale 6], length 0
+07:11:09.133842 IP sepehr.ssh > _gateway.38842: Flags [S.], seq 1042822954, ack 2662016058, win 65160, options [mss 1460,sackOK,TS val 4277129492 ecr 110977196,nop,wscale 7], length 0
+07:11:09.294897 IP _gateway.54412 > sepehr.1234: Flags [S], seq 1779197956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:09.294929 IP sepehr.1234 > _gateway.54412: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:09.341754 IP _gateway.38842 > sepehr.ssh: Flags [.], ack 1, win 69, options [nop,nop,TS val 110977403 ecr 4277129492], length 0
+07:11:09.341810 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 1:23, ack 1, win 69, options [nop,nop,TS val 110977403 ecr 4277129492], length 22
+07:11:09.341827 IP sepehr.ssh > _gateway.38842: Flags [.], ack 23, win 509, options [nop,nop,TS val 4277129700 ecr 110977403], length 0
+07:11:09.359279 IP sepehr.ssh > _gateway.38842: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 4277129718 ecr 110977403], length 42
+07:11:09.418700 IP _gateway.57673 > sepehr.1234: Flags [S], seq 3231609510, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:09.418733 IP sepehr.1234 > _gateway.57673: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:09.420083 IP _gateway.57674 > sepehr.1234: Flags [S], seq 123931103, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:09.420105 IP sepehr.1234 > _gateway.57674: Flags [R.], seq 0, ack 123931104, win 0, length 0
+07:11:09.570093 IP _gateway.38842 > sepehr.ssh: Flags [.], ack 43, win 69, options [nop,nop,TS val 110977632 ecr 4277129718], length 0
+07:11:09.570133 IP sepehr.ssh > _gateway.38842: Flags [P.], seq 43:1123, ack 23, win 509, options [nop,nop,TS val 4277129929 ecr 110977632], length 1080
+07:11:09.570561 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 23:999, ack 43, win 69, options [nop,nop,TS val 110977632 ecr 4277129718], length 976
+07:11:09.570589 IP sepehr.ssh > _gateway.38842: Flags [.], ack 999, win 502, options [nop,nop,TS val 4277129929 ecr 110977632], length 0
+07:11:09.778962 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 999:1047, ack 1123, win 103, options [nop,nop,TS val 110977841 ecr 4277129929], length 48
+07:11:09.779000 IP sepehr.ssh > _gateway.38842: Flags [.], ack 1047, win 502, options [nop,nop,TS val 4277130138 ecr 110977841], length 0
+07:11:09.788762 IP sepehr.ssh > _gateway.38842: Flags [P.], seq 1123:1559, ack 1047, win 502, options [nop,nop,TS val 4277130147 ecr 110977841], length 436
+07:11:09.807847 IP _gateway.54412 > sepehr.1234: Flags [S], seq 1779197956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:09.807870 IP sepehr.1234 > _gateway.54412: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:09.808650 IP _gateway.54413 > sepehr.1234: Flags [S], seq 1729784030, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:09.808665 IP sepehr.1234 > _gateway.54413: Flags [R.], seq 0, ack 1729784031, win 0, length 0
+07:11:09.921040 IP _gateway.57674 > sepehr.1234: Flags [S], seq 123931103, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:09.921080 IP sepehr.1234 > _gateway.57674: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:09.924890 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:10.006838 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 1047:1063, ack 1559, win 136, options [nop,nop,TS val 110978063 ecr 4277130147], length 16
+07:11:10.006882 IP sepehr.ssh > _gateway.38842: Flags [.], ack 1063, win 502, options [nop,nop,TS val 4277130365 ecr 110978063], length 0
+07:11:10.014882 ARP, Request who-has sepehr tell _gateway, length 46
+07:11:10.014896 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:11:10.169894 IP _gateway.5359 > sepehr.ssh: Flags [P.], seq 96:144, ack 209, win 4105, length 48
+07:11:10.169918 IP sepehr.ssh > _gateway.5359: Flags [.], ack 144, win 3074, length 0
+07:11:10.218447 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 1063:1115, ack 1559, win 136, options [nop,nop,TS val 110978280 ecr 4277130365], length 52
+07:11:10.218476 IP sepehr.ssh > _gateway.38842: Flags [.], ack 1115, win 502, options [nop,nop,TS val 4277130577 ecr 110978280], length 0
+07:11:10.218586 IP sepehr.ssh > _gateway.38842: Flags [P.], seq 1559:1611, ack 1115, win 502, options [nop,nop,TS val 4277130577 ecr 110978280], length 52
+07:11:10.320910 IP _gateway.54413 > sepehr.1234: Flags [S], seq 1729784030, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:10.320940 IP sepehr.1234 > _gateway.54413: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:10.422047 IP _gateway.57674 > sepehr.1234: Flags [S], seq 123931103, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:10.422085 IP sepehr.1234 > _gateway.57674: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:10.423467 IP _gateway.57675 > sepehr.1234: Flags [S], seq 182712818, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:10.423481 IP sepehr.1234 > _gateway.57675: Flags [R.], seq 0, ack 182712819, win 0, length 0
+07:11:10.428362 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 1115:1199, ack 1611, win 136, options [nop,nop,TS val 110978490 ecr 4277130577], length 84
+07:11:10.428381 IP sepehr.ssh > _gateway.38842: Flags [.], ack 1199, win 502, options [nop,nop,TS val 4277130787 ecr 110978490], length 0
+07:11:10.833609 IP _gateway.54413 > sepehr.1234: Flags [S], seq 1729784030, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:10.833646 IP sepehr.1234 > _gateway.54413: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:10.923308 ARP, Request who-has 192.168.1.151 tell 192.168.1.150, length 46
+07:11:10.924380 IP _gateway.57675 > sepehr.1234: Flags [S], seq 182712818, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:10.924407 IP sepehr.1234 > _gateway.57675: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:11.346038 IP _gateway.54413 > sepehr.1234: Flags [S], seq 1729784030, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:11.346076 IP sepehr.1234 > _gateway.54413: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:11.425393 IP _gateway.57675 > sepehr.1234: Flags [S], seq 182712818, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:11.425414 IP sepehr.1234 > _gateway.57675: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:11.426775 IP _gateway.57676 > sepehr.1234: Flags [S], seq 761343886, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:11.426786 IP sepehr.1234 > _gateway.57676: Flags [R.], seq 0, ack 761343887, win 0, length 0
+07:11:11.859836 IP _gateway.54413 > sepehr.1234: Flags [S], seq 1729784030, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:11.859871 IP sepehr.1234 > _gateway.54413: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:11.860912 IP _gateway.54414 > sepehr.1234: Flags [S], seq 3927062114, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:11.860926 IP sepehr.1234 > _gateway.54414: Flags [R.], seq 0, ack 3927062115, win 0, length 0
+07:11:11.927556 IP _gateway.57676 > sepehr.1234: Flags [S], seq 761343886, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:11.927589 IP sepehr.1234 > _gateway.57676: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:11.952186 ARP, Request who-has paziresh.qomstp.local tell _gateway, length 46
+07:11:12.374354 IP _gateway.54414 > sepehr.1234: Flags [S], seq 3927062114, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:12.374388 IP sepehr.1234 > _gateway.54414: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:12.428784 IP _gateway.57676 > sepehr.1234: Flags [S], seq 761343886, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:12.428814 IP sepehr.1234 > _gateway.57676: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:12.430192 IP _gateway.57677 > sepehr.1234: Flags [S], seq 3381951193, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:12.430205 IP sepehr.1234 > _gateway.57677: Flags [R.], seq 0, ack 3381951194, win 0, length 0
+07:11:12.557507 IP sepehr.49668 > pdc.qomstp.local.domain: 24082+ [1au] PTR? 20.1.168.192.in-addr.arpa. (54)
+07:11:12.557785 IP pdc.qomstp.local.domain > sepehr.49668: 24082* 1/0/1 PTR paziresh.qomstp.local. (89)
+07:11:12.886969 IP _gateway.54414 > sepehr.1234: Flags [S], seq 3927062114, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:12.887001 IP sepehr.1234 > _gateway.54414: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:12.931736 IP _gateway.57677 > sepehr.1234: Flags [S], seq 3381951193, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:12.931765 IP sepehr.1234 > _gateway.57677: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:12.944525 ARP, Request who-has paziresh.qomstp.local tell _gateway, length 46
+07:11:13.400438 IP _gateway.54414 > sepehr.1234: Flags [S], seq 3927062114, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:13.400469 IP sepehr.1234 > _gateway.54414: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:13.433930 IP _gateway.57677 > sepehr.1234: Flags [S], seq 3381951193, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:13.433954 IP sepehr.1234 > _gateway.57677: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:13.435337 IP _gateway.57678 > sepehr.1234: Flags [S], seq 3587888954, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:13.435358 IP sepehr.1234 > _gateway.57678: Flags [R.], seq 0, ack 3587888955, win 0, length 0
+07:11:13.916470 IP _gateway.54414 > sepehr.1234: Flags [S], seq 3927062114, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:13.916502 IP sepehr.1234 > _gateway.54414: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:13.917588 IP _gateway.54415 > sepehr.1234: Flags [S], seq 2952232310, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:13.917609 IP sepehr.1234 > _gateway.54415: Flags [R.], seq 0, ack 2952232311, win 0, length 0
+07:11:13.936045 IP _gateway.57678 > sepehr.1234: Flags [S], seq 3587888954, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:13.936061 IP sepehr.1234 > _gateway.57678: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:13.944385 ARP, Request who-has paziresh.qomstp.local tell _gateway, length 46
+07:11:14.308425 IP sepehr.ssh > _gateway.38842: Flags [P.], seq 1611:1663, ack 1199, win 502, options [nop,nop,TS val 4277134667 ecr 110978490], length 52
+07:11:14.437194 IP _gateway.57678 > sepehr.1234: Flags [S], seq 3587888954, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:14.437226 IP sepehr.1234 > _gateway.57678: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:14.438642 IP _gateway.57680 > sepehr.1234: Flags [S], seq 489501799, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:14.438662 IP sepehr.1234 > _gateway.57680: Flags [R.], seq 0, ack 489501800, win 0, length 0
+07:11:14.446087 IP _gateway.54415 > sepehr.1234: Flags [S], seq 2952232310, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:14.446105 IP sepehr.1234 > _gateway.54415: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:14.519008 IP _gateway.38842 > sepehr.ssh: Flags [P.], seq 1199:1251, ack 1663, win 136, options [nop,nop,TS val 110982580 ecr 4277134667], length 52
+07:11:14.519043 IP sepehr.ssh > _gateway.38842: Flags [.], ack 1251, win 502, options [nop,nop,TS val 4277134878 ecr 110982580], length 0
+07:11:14.519080 IP _gateway.38842 > sepehr.ssh: Flags [F.], seq 1251, ack 1663, win 136, options [nop,nop,TS val 110982580 ecr 4277134667], length 0
+07:11:14.520425 IP sepehr.ssh > _gateway.38842: Flags [F.], seq 1663, ack 1252, win 502, options [nop,nop,TS val 4277134879 ecr 110982580], length 0
+07:11:14.741617 IP _gateway.38842 > sepehr.ssh: Flags [.], ack 1664, win 136, options [nop,nop,TS val 110982791 ecr 4277134879], length 0
+07:11:14.939647 IP _gateway.57680 > sepehr.1234: Flags [S], seq 489501799, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:14.939682 IP sepehr.1234 > _gateway.57680: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:14.958718 IP _gateway.54415 > sepehr.1234: Flags [S], seq 2952232310, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:14.958730 IP sepehr.1234 > _gateway.54415: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:15.440712 IP _gateway.57680 > sepehr.1234: Flags [S], seq 489501799, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:15.440741 IP sepehr.1234 > _gateway.57680: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:15.442071 IP _gateway.57681 > sepehr.1234: Flags [S], seq 1675248143, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:15.442086 IP sepehr.1234 > _gateway.57681: Flags [R.], seq 0, ack 1675248144, win 0, length 0
+07:11:15.459633 IP _gateway.54415 > sepehr.1234: Flags [S], seq 2952232310, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:15.459645 IP sepehr.1234 > _gateway.54415: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:15.942430 IP _gateway.57681 > sepehr.1234: Flags [S], seq 1675248143, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:15.942467 IP sepehr.1234 > _gateway.57681: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:15.971539 IP _gateway.54415 > sepehr.1234: Flags [S], seq 2952232310, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:15.971566 IP sepehr.1234 > _gateway.54415: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:15.972793 IP _gateway.54416 > sepehr.1234: Flags [S], seq 3114344324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:15.972806 IP sepehr.1234 > _gateway.54416: Flags [R.], seq 0, ack 3114344325, win 0, length 0
+07:11:16.444346 IP _gateway.57681 > sepehr.1234: Flags [S], seq 1675248143, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:16.444381 IP sepehr.1234 > _gateway.57681: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:16.445780 IP _gateway.57682 > sepehr.1234: Flags [S], seq 1782223691, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:16.445796 IP sepehr.1234 > _gateway.57682: Flags [R.], seq 0, ack 1782223692, win 0, length 0
+07:11:16.486258 IP _gateway.54416 > sepehr.1234: Flags [S], seq 3114344324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:16.486287 IP sepehr.1234 > _gateway.54416: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:16.946492 IP _gateway.57682 > sepehr.1234: Flags [S], seq 1782223691, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:16.946526 IP sepehr.1234 > _gateway.57682: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:17.001371 IP _gateway.54416 > sepehr.1234: Flags [S], seq 3114344324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:17.001397 IP sepehr.1234 > _gateway.54416: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:17.253166 ARP, Request who-has sepehr (00:50:56:b3:25:08 (oui Unknown)) tell pdc.qomstp.local, length 46
+07:11:17.253190 ARP, Reply sepehr is-at 00:50:56:b3:25:08 (oui Unknown), length 28
+07:11:17.448001 IP _gateway.57682 > sepehr.1234: Flags [S], seq 1782223691, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:17.448034 IP sepehr.1234 > _gateway.57682: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:17.449417 IP _gateway.57683 > sepehr.1234: Flags [S], seq 4189437070, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:17.449431 IP sepehr.1234 > _gateway.57683: Flags [R.], seq 0, ack 4189437071, win 0, length 0
+07:11:17.515730 IP _gateway.54416 > sepehr.1234: Flags [S], seq 3114344324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:17.515763 IP sepehr.1234 > _gateway.54416: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:17.773047 ARP, Request who-has pdc.qomstp.local tell sepehr, length 28
+07:11:17.773244 ARP, Reply pdc.qomstp.local is-at 00:0c:29:28:bf:5c (oui Unknown), length 46
+07:11:17.949981 IP _gateway.57683 > sepehr.1234: Flags [S], seq 4189437070, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:17.950019 IP sepehr.1234 > _gateway.57683: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:18.031850 IP _gateway.54416 > sepehr.1234: Flags [S], seq 3114344324, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:18.031881 IP sepehr.1234 > _gateway.54416: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:18.032959 IP _gateway.54417 > sepehr.1234: Flags [S], seq 7396982, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:18.032992 IP sepehr.1234 > _gateway.54417: Flags [R.], seq 0, ack 7396983, win 0, length 0
+07:11:18.451869 IP _gateway.57683 > sepehr.1234: Flags [S], seq 4189437070, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:18.451903 IP sepehr.1234 > _gateway.57683: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:18.453242 IP _gateway.57684 > sepehr.1234: Flags [S], seq 4258820005, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:18.453254 IP sepehr.1234 > _gateway.57684: Flags [R.], seq 0, ack 4258820006, win 0, length 0
+07:11:18.546032 IP _gateway.54417 > sepehr.1234: Flags [S], seq 7396982, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:18.546060 IP sepehr.1234 > _gateway.54417: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:18.954405 IP _gateway.57684 > sepehr.1234: Flags [S], seq 4258820005, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:18.954442 IP sepehr.1234 > _gateway.57684: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:19.046195 IP _gateway.54417 > sepehr.1234: Flags [S], seq 7396982, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:19.046231 IP sepehr.1234 > _gateway.54417: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:19.460303 IP _gateway.57684 > sepehr.1234: Flags [S], seq 4258820005, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:19.460341 IP sepehr.1234 > _gateway.57684: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:19.461341 IP _gateway.57685 > sepehr.1234: Flags [S], seq 2431846160, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:19.461362 IP sepehr.1234 > _gateway.57685: Flags [R.], seq 0, ack 2431846161, win 0, length 0
+07:11:19.557659 IP _gateway.54417 > sepehr.1234: Flags [S], seq 7396982, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:19.557695 IP sepehr.1234 > _gateway.54417: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:19.963121 IP _gateway.57685 > sepehr.1234: Flags [S], seq 2431846160, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:19.963155 IP sepehr.1234 > _gateway.57685: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:20.057965 IP _gateway.54417 > sepehr.1234: Flags [S], seq 7396982, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:20.057995 IP sepehr.1234 > _gateway.54417: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:20.059017 IP _gateway.54418 > sepehr.1234: Flags [S], seq 2868279637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:20.059030 IP sepehr.1234 > _gateway.54418: Flags [R.], seq 0, ack 2868279638, win 0, length 0
+07:11:20.464201 IP _gateway.57685 > sepehr.1234: Flags [S], seq 2431846160, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:20.464236 IP sepehr.1234 > _gateway.57685: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:20.465475 IP _gateway.57686 > sepehr.1234: Flags [S], seq 4119300338, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:20.465487 IP sepehr.1234 > _gateway.57686: Flags [R.], seq 0, ack 4119300339, win 0, length 0
+07:11:20.573298 IP _gateway.54418 > sepehr.1234: Flags [S], seq 2868279637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:20.573325 IP sepehr.1234 > _gateway.54418: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:20.967282 IP _gateway.57686 > sepehr.1234: Flags [S], seq 4119300338, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:20.967321 IP sepehr.1234 > _gateway.57686: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:21.087638 IP _gateway.54418 > sepehr.1234: Flags [S], seq 2868279637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:21.087677 IP sepehr.1234 > _gateway.54418: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:21.357019 IP sepehr.ssh > _gateway.53000: Flags [FP.], seq 43:1123, ack 1000, win 503, options [nop,nop,TS val 4277141716 ecr 1488769751], length 1080
+07:11:21.468108 IP _gateway.57686 > sepehr.1234: Flags [S], seq 4119300338, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:21.468140 IP sepehr.1234 > _gateway.57686: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:21.469466 IP _gateway.57687 > sepehr.1234: Flags [S], seq 2066633624, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:21.469488 IP sepehr.1234 > _gateway.57687: Flags [R.], seq 0, ack 2066633625, win 0, length 0
+07:11:21.602996 IP _gateway.54418 > sepehr.1234: Flags [S], seq 2868279637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:21.603028 IP sepehr.1234 > _gateway.54418: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:21.971371 IP _gateway.57687 > sepehr.1234: Flags [S], seq 2066633624, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:21.971401 IP sepehr.1234 > _gateway.57687: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:22.117380 IP _gateway.54418 > sepehr.1234: Flags [S], seq 2868279637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:22.117411 IP sepehr.1234 > _gateway.54418: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:22.118594 IP _gateway.54419 > sepehr.1234: Flags [S], seq 498765375, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:22.118617 IP sepehr.1234 > _gateway.54419: Flags [R.], seq 0, ack 498765376, win 0, length 0
+07:11:22.471807 IP _gateway.57687 > sepehr.1234: Flags [S], seq 2066633624, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:22.471837 IP sepehr.1234 > _gateway.57687: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:22.473133 IP _gateway.57688 > sepehr.1234: Flags [S], seq 49812563, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:22.473155 IP sepehr.1234 > _gateway.57688: Flags [R.], seq 0, ack 49812564, win 0, length 0
+07:11:22.631451 IP _gateway.54419 > sepehr.1234: Flags [S], seq 498765375, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:22.631489 IP sepehr.1234 > _gateway.54419: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:22.974017 IP _gateway.57688 > sepehr.1234: Flags [S], seq 49812563, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:22.974052 IP sepehr.1234 > _gateway.57688: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:23.144086 IP _gateway.54419 > sepehr.1234: Flags [S], seq 498765375, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:23.144124 IP sepehr.1234 > _gateway.54419: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:23.475308 IP _gateway.57688 > sepehr.1234: Flags [S], seq 49812563, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+07:11:23.475347 IP sepehr.1234 > _gateway.57688: Flags [R.], seq 0, ack 1, win 0, length 0
+07:11:23.476713 IP _gateway.57689 > sepehr.1234: Flags [S], seq 4141046583, win 8192, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:23.476733 IP sepehr.1234 > _gateway.57689: Flags [R.], seq 0, ack 4141046584, win 0, length 0
+07:11:23.655316 IP _gateway.54419 > sepehr.1234: Flags [S], seq 498765375, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+07:11:23.655358 IP sepehr.1234 > _gateway.54419: Flags [R.], seq 0, ack 1, win 0, length 0
+
