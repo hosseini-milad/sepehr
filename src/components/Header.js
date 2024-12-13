@@ -37,8 +37,7 @@ const Header = (props)=>{
             <div className={`${props.lang.dir==="ltr"?"ms-md-auto":"ms-md-right"} 
               pe-md-3 d-flex align-items-center hideMobile`}>
               <div className="input-group input-group-outline">
-                <label className="form-label">{errortrans.typeHere[lang]}</label>
-                <input type="text" className="form-control"/>
+                
               </div>
             </div>
             <ul className="navbar-nav  justify-content-end">
@@ -50,12 +49,6 @@ const Header = (props)=>{
                 <a href="#" className="nav-link text-body p-0"
                 onClick={()=>setSetting(1)}>
                   <i className="fa fa-wrench fixed-plugin-button-nav cursor-pointer"></i>
-                </a>
-              </li>
-              <li className="nav-item d-flex align-items-center">
-                <a href="#" className="nav-link text-body p-0"
-                onClick={()=>setConfigure(1)}>
-                  <i className="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
                 </a>
               </li>
               <li className="nav-item d-flex align-items-center">

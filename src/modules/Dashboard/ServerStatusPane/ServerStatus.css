@@ -1,0 +1,58 @@
+.server-status {
+    border-radius: 0.3125rem;
+    padding: 1rem;
+    height: 19rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ebebeb;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  
+  .server-status__header {
+    max-width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+  }
+  
+  .server-status__icon {
+    border-radius: 1rem;
+    background-color: #2e85eb;
+    color: white;
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .server-status__name {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .server-status__usage {
+    font-size: 0.75rem;
+  }
+  
+  .server-status__body {
+    margin-top: 0.5rem;
+  }
+  
+  .server-status__prop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  
+  .server-status__prop-name {
+    font-size: 0.75rem;
+  }
+  
+  .server-status__prop-value {
+    font-size: 0.875rem;
+    font-weight: bold;
+  }

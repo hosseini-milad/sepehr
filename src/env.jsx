@@ -1,8 +1,8 @@
 const env={
-    siteApi:'http://localhost:5370/api',
+    siteApi:'http://localhost:4050/api',
     //siteApi:'https://deepadmin.deepware.ir/api',
     
-    siteApiUrl:'http://localhost:5370',
+    siteApiUrl:'http://localhost:4050',
     //siteApiUrl:'https://deepadmin.deepware.ir',
 
     cookieName:'sepehr-login',
@@ -66,6 +66,13 @@ export function rxFindCountSeprate(order){
   if(order.osMain!==",,,,") left=1
   return([right,left])
 }
+export const findPriority=(priority)=>{
+  if(!priority) return("mid")
+  if(priority=="کم") return("low")
+  if(priority=="متوسط") return("mid")
+  if(priority=="بالا") return("high")
+  return("mid")
+}
 export function PriceDiscount(priceText,count,discountText){
     if(priceText === null||priceText === undefined) return(priceText)
     var rawPrice = priceText.toString().replaceAll(',', '')
@@ -87,9 +94,11 @@ export function PageInfoFunction(orderInfo,filters){
   })
 }
 export function findCircle(value){
+  var def = 50
   var valuePercent = Math.round(value*20)*5
   var outClass = `circle predict-${valuePercent}`
-  return({class:outClass,value:valuePercent})
+  def = valuePercent?valuePercent:def
+  return({class:outClass,value:def})
 }
   
 export default env

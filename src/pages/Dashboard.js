@@ -18,6 +18,7 @@ import DashBoardDaily from '../modules/Dashboard/1DashBoardToday';
 import DashboardChart from '../modules/Dashboard/2DashBoardCharts';
 import DashboardProject from '../modules/Dashboard/3DashBoardProject';
 import DashboardOverView from '../modules/Dashboard/4DashBoardOverview';
+import ServerStatusPane from '../modules/Dashboard/ServerStatusPane/ServerStatusPane';
 import { useEffect, useState } from 'react';
 import errortrans from '../translate/error';
 const cookies = new Cookies();
@@ -45,6 +46,7 @@ function Dashboard(props){
     <div class="container-fluid py-4" style={{direction:direction}}>
         <DashBoardDaily report={totalToday} direction={direction} lang={lang}/>
         <DashboardChart direction={direction} lang={lang}/>
+        <ServerStatusPane lang={lang} className="mb-4" />
         <div class="row mb-4">
             <DashboardProject lang={lang}/>
             <DashboardOverView />

@@ -19,8 +19,8 @@ function StyleInput(props){
         stylisPlugins: []
       });
     return(
-        <CacheProvider value={props.direction==="rtl"?cacheRtl:cacheltR}
-        style={{position:"relative"}}>
+        //<CacheProvider value={props.direction==="rtl"?cacheRtl:cacheltR} style={{position:"relative"}}>
+        <>
             <TextField label={props.title} 
                 className={props.class}
                 defaultValue={props.defaultValue}
@@ -32,8 +32,8 @@ function StyleInput(props){
             onClick={()=>setShowPass(showPass?0:1)}></i>:<></>}
             {props.icon?<div className={props.direction==="rtl"?"showPassRTL":"showPass"}>
                 {props.icon}</div>:<></>}
-            
-        </CacheProvider>
+            </>
+        //</CacheProvider>
     )
 }
 export default StyleInput

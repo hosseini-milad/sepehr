@@ -8,6 +8,7 @@ import ReportTable from "../modules/Reports/ReportTable";
 import Paging from "../modules/Components/Paging";
 import { useParams } from 'react-router-dom';
 import ReportTableOS from "../modules/Reports/ReportTableOS";
+import ReportTableSpan from "../modules/Reports/ReportTableSpan";
 const cookies = new Cookies();
  
 function Report(props) {
@@ -40,9 +41,9 @@ function Report(props) {
       },
       body: JSON.stringify(body)
     }
-    console.log(postOptions)
+    console.log(mode)
     fetch(env.siteApi + `/report/${mode==="service"?"web":
-      "os"}Service-list-report`, postOptions)
+      mode==="systems"?"os":"span"}Service-list-report`, postOptions)
       .then(res => res.json())
       .then(
         (result) => {
@@ -103,7 +104,7 @@ function Report(props) {
               <ReportFilters lang={props.lang} setFilters={setFilters}
                 options={content.access} />
               <div className="user-list">
-                <ReportTable reportList={content} lang={props.lang} />
+                <ReportTableSpan reportList={content} lang={props.lang} />
               </div>
               <Paging content={content} setFilters={setFilters} filters={filters}
                 lang={props.lang} />

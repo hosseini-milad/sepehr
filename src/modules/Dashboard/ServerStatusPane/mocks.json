@@ -1,0 +1,92 @@
+[
+    {
+      "name": "Server #1",
+      "usage": "High",
+      "ip": "192.168.8.1",
+      "mac": "AA:BB:CC:DD:EE:FF",
+      "cpu_usage": 56,
+      "ram_usage": 90,
+      "network": "network1"
+    },
+    {
+      "name": "Server #2",
+      "usage": "Critical",
+      "ip": "10.0.0.1",
+      "mac": "11:22:33:44:55:66",
+      "cpu_usage": 88,
+      "ram_usage": 99,
+      "network": "network1"
+    },
+    {
+      "name": "Database Server",
+      "usage": "High",
+      "ip": "172.16.0.1",
+      "mac": "77:88:99:AA:BB:CC",
+      "cpu_usage": 30,
+      "ram_usage": 70,
+      "network": "network2"
+    },
+    {
+      "name": "Web Server 1",
+      "usage": "Normal",
+      "ip": "192.168.8.10",
+      "mac": "DE:AD:BE:EF:CA:FE",
+      "cpu_usage": 25,
+      "ram_usage": 50,
+      "network": "network2"
+    },
+    {
+      "name": "Web Server 2",
+      "usage": "Normal",
+      "ip": "192.168.8.11",
+      "mac": "FF:EE:DD:CC:BB:AA",
+      "cpu_usage": 18,
+      "ram_usage": 40,
+      "network": "network1"
+    },
+    {
+      "name": "Backup Server",
+      "usage": "Normal",
+      "ip": "10.0.0.10",
+      "mac": "00:11:22:33:44:55",
+      "cpu_usage": 2,
+      "ram_usage": 15,
+      "network": "network1"
+    },
+    {
+      "name": "Mail Server",
+      "usage": "Normal",
+      "ip": "172.16.0.10",
+      "mac": "AA:55:BB:77:88:99",
+      "cpu_usage": 10,
+      "ram_usage": 35,
+      "network": "network1"
+    },
+    {
+      "name": "VPN Server",
+      "usage": "Normal",
+      "ip": "192.168.8.20",
+      "mac": "01:02:03:04:05:06",
+      "cpu_usage": 8,
+      "ram_usage": 28,
+      "network": "network2"
+    },
+    {
+      "name": "DNS Server",
+      "usage": "Normal",
+      "ip": "10.0.0.20",
+      "mac": "66:55:44:33:22:11",
+      "cpu_usage": 5,
+      "ram_usage": 12,
+      "network": "network2"
+    },
+    {
+      "name": "Printer Server",
+      "usage": "Idle",
+      "ip": "192.168.8.30",
+      "mac": "CC:BB:AA:99:88:77",
+      "cpu_usage": 1,
+      "ram_usage": 5,
+      "network": "network1"
+    }
+  ]

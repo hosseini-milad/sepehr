@@ -53,7 +53,7 @@ function Models(props){
   //window.scrollTo(0, 270);},[pageNumber,filters,perPage,refreshTable])
    return(
       <div className="user" style={{direction:direction}}>
-      <h4>{errortrans.orders[lang]}</h4>
+      <h4>{errortrans.models[lang]}</h4>
       <div className="list-container">
         <StatusBar lang={lang} token={token} filters={filters}
          status={content.rxStatus} setFilters={setFilters}/>

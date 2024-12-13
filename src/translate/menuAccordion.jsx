@@ -23,6 +23,14 @@ menu:[
             url:""
         },
         {
+            english: "CRM",
+            persian: "پیگیری ها",
+            index:0,
+            icon:"fa-dashboard",
+            href:"/crm",
+            url:"crm"
+        },
+        {
             english: "Report",
             persian: "گزارش",
             index:1,
@@ -48,12 +56,12 @@ menu:[
                 url:"users"
             },
             {
-                english: "Customers",
-                persian: "مدیریت مشتریان",
+                english: "Access",
+                persian: "دسترسی ها",
                 index:0,
-                icon:"fa-users",
-                href:"/customers",
-                url:"customers"
+                icon:"fa-key",
+                href:"/access",
+                url:"access"
             },
             ]
     },
@@ -75,39 +83,6 @@ menu:[
             ]
     },
     
-    {
-        english: "Configuration",
-        persian: "تنظیمات",
-        index:0,
-        icon:"fa-dashboard",
-        href:"#",
-        children:[
-            {
-                english: "Panel Config",
-                persian: "تنظیمات پنل",
-                index:0,
-                icon:"fa-cog",
-                href:"/config/system",
-                url:"config"
-            },
-        {
-            english: "License",
-            persian: "گواهی ها",
-            index:0,
-            icon:"fa-certificate",
-            href:"/config/license",
-            url:"config"
-        },
-        {
-            english: "Devices",
-            persian: "دستگاه ها",
-            index:0,
-            icon:"fa-mobile",
-            href:"/config/mobile",
-            url:"config"
-        }
-        ]
-    },
     {
         english: "Help",
         persian: "راهنما",
@@ -133,6 +108,32 @@ menu:[
         }
         ]
     },
+],
+setting:[
+    {
+        english: "Panel Config",
+        persian: "تنظیمات پنل",
+        index:0,
+        icon:"fa-cog",
+        href:"/config/system",
+        url:"config"
+    },
+    {
+        english: "License",
+        persian: "گواهی ها",
+        index:0,
+        icon:"fa-certificate",
+        href:"/config/license",
+        url:"config"
+    },
+    {
+        english: "Devices",
+        persian: "دستگاه ها",
+        index:0,
+        icon:"fa-mobile",
+        href:"/config/mobile",
+        url:"config"
+    }
 ]
 }
 export default menutrans

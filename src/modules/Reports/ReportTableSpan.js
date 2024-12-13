@@ -1,30 +1,35 @@
 import { useState } from "react";
 import tabletrans from "../../translate/tables"
-import UserTableRow from "./UserTableRow"
+import ReportTableRow from "./ReportTableRow";
+import ReportTableRowSpan from "./ReportTableRowSpan";
 
-function UserTable(props){
-  const userList = props.userList
+function ReportTableSpan(props){
+  const reportList = props.reportList
   const lang=props.lang.lang;
   const [detail,showDetail] = useState(-1)
-    return(  
+    return( 
         <table>
         <thead>
           <tr>
             <th><input type="checkbox" name="" id=""/></th>
             <th>
-              <p>{tabletrans.name[lang]}</p>
+              <p>{tabletrans.url[lang]}</p>
               <i></i>
             </th>
             <th>
-              <p>{tabletrans.phoneNumber[lang]}</p>
+              <p>{tabletrans.agent[lang]}</p>
               <i></i>
             </th>
             <th>
-              <p>{tabletrans.company[lang]}</p>
+              <p>{tabletrans.ResponseCode[lang]}</p>
               <i></i>
             </th>
             <th>
-              <p>{tabletrans.role[lang]}</p>
+              <p>{tabletrans.ip[lang]}</p>
+              <i></i>
+            </th>
+            <th>
+              <p>{tabletrans.date[lang]}</p>
               <i></i>
             </th>
             <th>
@@ -35,9 +40,9 @@ function UserTable(props){
           </tr>
         </thead>
         <tbody>
-          {(userList&&userList.filter)?userList.filter.map((user,i)=>(
-            <UserTableRow detail={detail} showDetail={showDetail} 
-              user={user} index={i} key={i} lang={lang}/>
+          {(reportList&&reportList.filter)?reportList.filter.map((report,i)=>(
+            <ReportTableRowSpan detail={detail} showDetail={showDetail} 
+            report={report} index={i} key={i} lang={lang}/>
           )):''}
           
         </tbody>
@@ -45,4 +50,4 @@ function UserTable(props){
 
     )
 }
-export default UserTable
+export default ReportTableSpan

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './css/App.css';
+import './css/board.css';
 import './css/fontAwesome.css';
 import './css/main.css';
 import './css/overide.css';
@@ -21,7 +22,6 @@ import Cookies from 'universal-cookie';
 import errortrans from './translate/error';
 import LayoutLogin from './components/LayoutLogin';
 import env from './env';
-import UserDetailHolder from './modules/Users/UserData/UserDetailHolder';
 
 import Profile from './pages/Profile';
 import Services from './pages/Services';
@@ -31,6 +31,12 @@ import Models from './pages/Models';
 import UserProfile from './pages/Profile'
 import Report from './pages/Report';
 import Park from './pages/Park';
+import AccessHolder from './modules/AccessControl/AccessHolder';
+import ProfileAdd from './modules/AccessControl/ProfileAdd';
+
+import CRM from "./pages/Crm";
+import CrmList from "./modules/Crm/CRMList/crmList";
+import CRMAdd from "./modules/Crm/CRMList/crmAdd";
 
 const cookies = new Cookies();
 const style = document.getElementById('style-direction');
@@ -57,10 +63,9 @@ root.render(
         <Route path="/users" element={<Layout><Users lang={lang} user={1}/></Layout>}/>
         <Route path="/users/detail/:userId" element={<Layout><UserProfile lang={lang} user={1}/></Layout>}/>
 
-        <Route path="/customers" element={<Layout><Users lang={lang} /></Layout>}/>
-        <Route path="/customers/detail/:userId" element={<Layout><UserDetailHolder lang={lang}/></Layout>}/>
-
         <Route path="/models" element={<Layout><Models lang={lang}/></Layout>}/>
+        <Route path="/access" element={ <Layout><AccessHolder lang={lang} /></Layout> }/>
+        <Route path="/access/detail/:profileId" element={ <Layout><ProfileAdd lang={lang} /></Layout> }/>
 
         <Route path="/report" element={<Layout><Report lang={lang}/></Layout>} />
         <Route path="/park" element={<Layout><Park lang={lang}/></Layout>} />
@@ -72,6 +77,11 @@ root.render(
         <Route path="/services/detail/:orderId" element={<Layout><ServiceDetailHolder lang={lang}/></Layout>}/>
         
         <Route path="/config/sepidar" element={<Layout><Sepidar lang={lang}/></Layout>}/>
+
+        
+        <Route path="/crm" element={<Layout> <CRM lang={lang} /></Layout>}/>
+        <Route path="/crmlist" element={ <Layout> <CrmList lang={lang} /></Layout>}/>
+        <Route path="/crmlist/detail/:crmId" element={<Layout><CRMAdd lang={lang} /></Layout>}/>
 
       </Routes>:
         <Routes>

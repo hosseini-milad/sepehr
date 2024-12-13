@@ -16,7 +16,7 @@ function DashboardChart(props){
             </div>
             <div class="card-body">
               <h6 class="mb-0 ">{errortrans.webserverStatistics[props.lang]}</h6>
-              <p class="text-sm ">Last Campaign Performance</p>
+              <p class="text-sm "> </p>
               <hr class="dark horizontal"/>
               <div class="d-flex flexJustify">
                 <i class="fas fa-history"></i> 
@@ -40,7 +40,7 @@ function DashboardChart(props){
             </div>
             <div class="card-body">
               <h6 class="mb-0 "> {errortrans.osStatistics[props.lang]}</h6>
-              <p class="text-sm "> (<span class="font-weight-bolder">+15%</span>) increase in today request. </p>
+              <p class="text-sm "> <span class="font-weight-bolder"> </span>   </p>
               <hr class="dark horizontal"/>
               <div class="d-flex flexJustify">
                 <i class="fas fa-history"></i>
@@ -63,7 +63,7 @@ function DashboardChart(props){
             </div>
             <div class="card-body">
               <h6 class="mb-0 ">{errortrans.devicesStatistics[props.lang]}</h6>
-              <p class="text-sm ">Last Campaign Performance</p>
+              <p class="text-sm "> </p>
               <hr class="dark horizontal"/>
               <div class="d-flex flexJustify">
                 <i class="fas fa-history"></i>

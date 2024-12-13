@@ -7,9 +7,61 @@ const formtrans ={
         english: "Title",
         persian: "نام"
     },
+    back:{
+        english: "Back",
+        persian: "بازگشت"
+    },
     phoneNumber:{
         english: "Phone Number",
         persian: "شماره تماس"
+    },
+    users:{
+        english: "Users",
+        persian: "کاربران"
+    },
+    searchUser:{
+        english: "Search Users",
+        persian: "جستجوی کاربران"
+    },
+    addUser:{
+        english: "Add User",
+        persian: "افزودن کاربر"
+    },
+    role:{
+        english: "Role",
+        persian: "نقش کاربر"
+    },
+    group:{
+        english: "Group",
+        persian: "گروه بندی"
+    },
+    lastAccess:{
+        english: "Last Access",
+        persian: "آخرین دسترسی"
+    },
+    access:{
+        english: "Access",
+        persian: "دسترسی"
+    },
+    store:{
+        english: "Store",
+        persian: "انبار"
+    },
+    newPassword:{
+        english: "New Password",
+        persian: "رمز عبور جدید"
+    },
+    username:{
+        english: "username",
+        persian: "نام کاربری"
+    },
+    profile:{
+        english: "Profile",
+        persian: "پروفایل کاربری"
+    },
+    email:{
+        english: "Email",
+        persian: "آدرس ایمیل"
     },
     emailAddress:{
         english: "Email Address",

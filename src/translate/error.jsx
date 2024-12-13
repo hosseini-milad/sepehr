@@ -53,11 +53,46 @@ const errortrans ={
         english:"Orders",
         persian:"سفارشات"
     },
+    models:{
+        english:"Models",
+        persian:"مدل ها"
+    },
     setting:{
         english:"Setting",
         persian:"تنظیمات"
     },
-
+//CRM Control
+crms:{
+    english:"CRM",
+    persian:"مدیریت رویدادها"
+},
+crm:{
+    english:"crm",
+    persian:"افزودن"
+},
+crmName:{
+    english:"CRM Name",
+    persian:"نام CRM"
+},
+crmCode:{
+    english:"CRM Code",
+    persian:"کد CRM"
+},createdBy:{
+    english:"Created By",
+    persian:"ایجاد کننده"
+},
+createdOn:{
+    english:"Created On",
+    persian:"تاریج ایجاد"
+},
+back:{
+    english:"Back",
+    persian:"عقب"
+},
+setting:{
+    english:"Setting",
+    persian:"تنظیمات"
+},
     /*DashBoard*/
     todayRequest:{
         english:"Today Request",
@@ -112,6 +147,55 @@ const errortrans ={
         english:"Total",
         persian:"همه"
     },
+    //Access Control
+profiles:{
+    english:"Profiles",
+    persian:"پروفایل ها"
+},
+profile:{
+    english:"Profile",
+    persian:"پروفایل"
+},
+profileName:{
+    english:"Profile Name",
+    persian:"نام پروفایل"
+},
+profileCode:{
+    english:"Profile Code",
+    persian:"کد پروفایل"
+},
+createdBy:{
+    english:"Created By",
+    persian:"ایجاد کننده"
+},
+createdOn:{
+    english:"Created On",
+    persian:"تاریج ایجاد"
+},
+back:{
+    english: "Back",
+    persian: "بازگشت"
+},
+read:{
+    english:"Read",
+    persian:"خواندن"
+},
+edit:{
+    english:"Edit",
+    persian:"ویرایش"
+},
+full:{
+    english:"Full",
+    persian:"کامل"
+},
+newClass:{
+    english:"New Class",
+    persian:"کلاس جدید"
+},
+setting:{
+    english:"Setting",
+    persian:"تنظیمات"
+},
 
 }
 export default errortrans
